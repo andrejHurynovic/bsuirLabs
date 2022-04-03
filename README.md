@@ -1,4 +1,22 @@
 # bsuirLabs
+
+### [Первый семестр](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term1)
+
+### [Второй семестр](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term2)
+
+### [Третий семестр](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term3)
+
+### [Четвёртый семестр](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term4)
+
+### [Пятый семестр](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term5)
+- [АПК](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/АПК) (Одинец Д.Н.)
+- [ИиПУ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/ИиПУ) (Дудкин А.А. / Байдун Д.Р.)
+- [ОЗИ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/ОЗИ) (Смирнова Н.А. / Столер Д.В.)
+- [СхемТ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/СхемТ) (Байрак С.А. / Коников А.Д.)
+- [СхемТ, КП](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/СхемТ, КП) (Некревич Ю.И.)
+- [ТОКС](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/СхемТ, КП) (Глецевич И.И. / Марцинкевич В.А.)
+- [CиФОЭВМ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/CиФОЭВМ) (Байрак С.А. / Коников А.Д.)
+
 ### [Шестой семестр](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6)
 - [АВП](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/АВП) (Перцев Д.Ю.)
 - [АКСиС](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/АКСиС) (Глецевич И.И. / Марцинкевич В.А.)
