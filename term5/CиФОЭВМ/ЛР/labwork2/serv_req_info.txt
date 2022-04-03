@@ -1,0 +1,32 @@
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x08ce822b: edt_ged + 0x9822b (_DllMain@12 + 0x6b46b)
+	</callstack>
+	<error>Current editor: GED, WED, RPW, SFW, GED, GED, WED</error>
+	<date>Thu Oct 07 18:15:52 2021</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>Access Violation at 0X08CE822B
+Current editor: GED, WED, RPW, SFW, GED, GED, WED
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus.exe</executable>
+	<sub_system>unknown</sub_system>
+	<file>unknown</file>
+	<line>0</line>
+	<callstack>
+	0x087c4576: edt_ged + 0x84576 (_DllMain@12 + 0x577b6)
+	</callstack>
+	<error>Current editor: GED, WED, SFW, RPW, GED, GED</error>
+	<date>Sun Oct 10 03:45:12 2021</date>
+	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version</version>
+	<full_error>Access Violation at 0X087C4576
+Current editor: GED, WED, SFW, RPW, GED, GED
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Full Version </full_error>
+</internal_error>
+

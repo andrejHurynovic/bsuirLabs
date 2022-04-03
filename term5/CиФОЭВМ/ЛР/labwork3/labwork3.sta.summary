@@ -1,0 +1,161 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'read2'
+Slack : -2.265
+TNS   : -69.145
+
+Type  : Slow 1200mV 85C Model Setup 'clock'
+Slack : -1.883
+TNS   : -17.057
+
+Type  : Slow 1200mV 85C Model Setup 'address_maneger:inst|lpm_counter2:inst8|lpm_counter:LPM_COUNTER_component|cntr_26i:auto_generated|counter_reg_bit[0]'
+Slack : -0.716
+TNS   : -3.722
+
+Type  : Slow 1200mV 85C Model Hold 'read2'
+Slack : -2.420
+TNS   : -67.543
+
+Type  : Slow 1200mV 85C Model Hold 'clock'
+Slack : -0.540
+TNS   : -0.880
+
+Type  : Slow 1200mV 85C Model Hold 'address_maneger:inst|lpm_counter2:inst8|lpm_counter:LPM_COUNTER_component|cntr_26i:auto_generated|counter_reg_bit[0]'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clock'
+Slack : -1.942
+TNS   : -5.275
+
+Type  : Slow 1200mV 85C Model Recovery 'address_maneger:inst|lpm_counter2:inst8|lpm_counter:LPM_COUNTER_component|cntr_26i:auto_generated|counter_reg_bit[0]'
+Slack : -1.266
+TNS   : -6.330
+
+Type  : Slow 1200mV 85C Model Removal 'clock'
+Slack : -0.071
+TNS   : -0.071
+
+Type  : Slow 1200mV 85C Model Removal 'address_maneger:inst|lpm_counter2:inst8|lpm_counter:LPM_COUNTER_component|cntr_26i:auto_generated|counter_reg_bit[0]'
+Slack : 1.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'read2'
+Slack : -3.000
+TNS   : -44.317
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -27.588
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'address_maneger:inst|lpm_counter2:inst8|lpm_counter:LPM_COUNTER_component|cntr_26i:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Slow 1200mV 0C Model Setup 'read2'
+Slack : -1.959
+TNS   : -58.696
+
+Type  : Slow 1200mV 0C Model Setup 'clock'
+Slack : -1.599
+TNS   : -13.999
+
+Type  : Slow 1200mV 0C Model Setup 'address_maneger:inst|lpm_counter2:inst8|lpm_counter:LPM_COUNTER_component|cntr_26i:auto_generated|counter_reg_bit[0]'
+Slack : -0.521
+TNS   : -2.462
+
+Type  : Slow 1200mV 0C Model Hold 'read2'
+Slack : -2.166
+TNS   : -60.168
+
+Type  : Slow 1200mV 0C Model Hold 'clock'
+Slack : -0.544
+TNS   : -0.993
+
+Type  : Slow 1200mV 0C Model Hold 'address_maneger:inst|lpm_counter2:inst8|lpm_counter:LPM_COUNTER_component|cntr_26i:auto_generated|counter_reg_bit[0]'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clock'
+Slack : -1.618
+TNS   : -4.384
+
+Type  : Slow 1200mV 0C Model Recovery 'address_maneger:inst|lpm_counter2:inst8|lpm_counter:LPM_COUNTER_component|cntr_26i:auto_generated|counter_reg_bit[0]'
+Slack : -1.022
+TNS   : -5.110
+
+Type  : Slow 1200mV 0C Model Removal 'clock'
+Slack : -0.132
+TNS   : -0.132
+
+Type  : Slow 1200mV 0C Model Removal 'address_maneger:inst|lpm_counter2:inst8|lpm_counter:LPM_COUNTER_component|cntr_26i:auto_generated|counter_reg_bit[0]'
+Slack : 1.306
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'read2'
+Slack : -3.000
+TNS   : -43.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -27.566
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'address_maneger:inst|lpm_counter2:inst8|lpm_counter:LPM_COUNTER_component|cntr_26i:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Setup 'read2'
+Slack : -0.858
+TNS   : -21.766
+
+Type  : Fast 1200mV 0C Model Setup 'clock'
+Slack : -0.397
+TNS   : -3.176
+
+Type  : Fast 1200mV 0C Model Setup 'address_maneger:inst|lpm_counter2:inst8|lpm_counter:LPM_COUNTER_component|cntr_26i:auto_generated|counter_reg_bit[0]'
+Slack : 0.039
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'read2'
+Slack : -1.494
+TNS   : -42.158
+
+Type  : Fast 1200mV 0C Model Hold 'clock'
+Slack : -0.334
+TNS   : -0.731
+
+Type  : Fast 1200mV 0C Model Hold 'address_maneger:inst|lpm_counter2:inst8|lpm_counter:LPM_COUNTER_component|cntr_26i:auto_generated|counter_reg_bit[0]'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clock'
+Slack : -0.692
+TNS   : -1.735
+
+Type  : Fast 1200mV 0C Model Recovery 'address_maneger:inst|lpm_counter2:inst8|lpm_counter:LPM_COUNTER_component|cntr_26i:auto_generated|counter_reg_bit[0]'
+Slack : -0.273
+TNS   : -1.365
+
+Type  : Fast 1200mV 0C Model Removal 'clock'
+Slack : -0.050
+TNS   : -0.050
+
+Type  : Fast 1200mV 0C Model Removal 'address_maneger:inst|lpm_counter2:inst8|lpm_counter:LPM_COUNTER_component|cntr_26i:auto_generated|counter_reg_bit[0]'
+Slack : 0.803
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'read2'
+Slack : -3.000
+TNS   : -60.922
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock'
+Slack : -3.000
+TNS   : -19.162
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'address_maneger:inst|lpm_counter2:inst8|lpm_counter:LPM_COUNTER_component|cntr_26i:auto_generated|counter_reg_bit[0]'
+Slack : -1.000
+TNS   : -8.000
+
+------------------------------------------------------------

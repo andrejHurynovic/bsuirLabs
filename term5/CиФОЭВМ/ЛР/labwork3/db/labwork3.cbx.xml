@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="labwork3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|lpm_constant2:inst38|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_gh6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|address_maneger:inst|lpm_counter2:inst10|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_26i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|lpm_compare4:inst3|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_4ej.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|super_counter:inst24|lpm_counter3:inst1|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_p6i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|lpm_constant1:inst15|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_0g6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|lpm_constant2:inst14|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_gh6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|lpm_counter3:inst2|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_p6i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|lpm_counter5:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_1oh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|super_counter:inst16|lpm_counter3:inst1|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_p6i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|address_maneger:inst|lpm_compare2:inst6|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_qaj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|address_maneger:inst|lpm_compare6:inst2|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_vdj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|lpm_constant1:inst25|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_0g6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|lpm_decode1:inst1|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_svf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|super_counter:inst17|lpm_counter3:inst1|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_p6i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|super_counter:inst24|lpm_compare3:inst6|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_tng.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|super_counter:inst16|lpm_compare3:inst6|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_tng.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|super_counter:inst18|lpm_counter3:inst1|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_p6i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|ROM:inst2|lpm_rom0:inst1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_rr61.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|address_maneger:inst|lpm_compare1:inst9|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_vdj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|super_counter:inst17|lpm_compare3:inst6|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_tng.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|super_counter:inst37|lpm_counter3:inst1|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_p6i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|address_maneger:inst|lpm_add_sub0:inst11|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_inh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Bufer:inst12|lpm_decode0:inst11|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_cuf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Bufer:inst12|lpm_mux0:inst8|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_aqc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|lpm_constant2:inst36|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_gh6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|super_counter:inst18|lpm_compare3:inst6|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_tng.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|address_maneger:inst|lpm_counter1:inst|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_46i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|lpm_constant2:inst11|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_gh6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|super_counter:inst13|lpm_counter3:inst1|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_p6i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|super_counter:inst22|lpm_counter3:inst1|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_p6i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|super_counter:inst31|lpm_counter3:inst1|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_p6i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|super_counter:inst37|lpm_compare3:inst6|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_tng.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|address_maneger:inst|lpm_counter2:inst8|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_26i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|lpm_constant2:inst12|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_gh6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|lpm_ram_dq0:inst3|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_96a1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|lpm_constant1:inst23|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_0g6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|super_counter:inst13|lpm_compare3:inst6|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_tng.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|super_counter:inst22|lpm_compare3:inst6|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_tng.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Control_Block:inst1|super_counter:inst31|lpm_compare3:inst6|lpm_compare:LPM_COMPARE_component" CBX_FILE_NAME="cmpr_tng.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,5317 @@
+Version:
+	9.0 Build 132 02/25/2009 SJ Full Version
+
+Chip Device Options:
+	Device Name:	EP2S15F484C3
+	Device JTAG code:	ffffffff
+	Programming_mode:	Passive Serial
+	NWS_NRS_NCS:	UNRESERVED
+	RDYNBUSY:	UNRESERVED
+	DATA 7 to 1:	UNRESERVED
+	nCEO:	UNRESERVED
+	UNUSED PINS:	RESERVED_GND
+	Default IO Standard::	3.3-V LVTTL
+	User Start-up Clock:	0
+	Auto Restart on Error:	1
+	Release Clears Before Tristates:	0
+	Device Clear:	0
+	Test And Scan:	0
+	Device OE:	0
+	Enable Lock Output:	0
+	Enable Init Done:	0
+	Enable JTAG BST:	0
+	Enable Vref A:	0
+	Enable Vref B:	0
+
+
+
+****************************
+******Individual Atoms******
+****************************
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_reg_bit1a[2] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 0
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  BlockB:inst2|lpm_compare_4_bits_le_3:inst12|lpm_compare:lpm_compare_component|cmpr_ubj:auto_generated|aleb	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAIN]	  BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]	LIT INDEX 0 FANOUTS 17 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_reg_bit1a[1] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 1
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  BlockB:inst2|lpm_compare_4_bits_le_3:inst12|lpm_compare:lpm_compare_component|cmpr_ubj:auto_generated|aleb	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAIN]	  BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]	LIT INDEX 0 FANOUTS 17 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_reg_bit1a[0] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 2
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  BlockB:inst2|lpm_compare_4_bits_le_3:inst12|lpm_compare:lpm_compare_component|cmpr_ubj:auto_generated|aleb	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAIN]	  BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]	LIT INDEX 0 FANOUTS 17 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_reg_bit1a[3] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 3
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  BlockB:inst2|lpm_compare_4_bits_le_3:inst12|lpm_compare:lpm_compare_component|cmpr_ubj:auto_generated|aleb	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAIN]	  BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita3	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[3]	LIT INDEX 0 FANOUTS 3 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_reg_bit1a[5] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 4
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(input)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAIN]	  BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita5	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~5)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	  BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[5]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_reg_bit1a[3] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 5
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(input)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAIN]	  BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita3	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~5)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	  BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[3]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_reg_bit1a[2] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 6
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(input)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAIN]	  BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~5)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	  BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[2]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_reg_bit1a[1] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 7
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(input)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAIN]	  BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~5)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	  BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[1]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_reg_bit1a[4] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 8
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(input)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAIN]	  BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita4	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~5)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	  BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[4]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_reg_bit1a[0] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 9
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(input)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAIN]	  BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~5)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	  BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[0]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_reg_bit1a[7] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 10
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(input)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAIN]	  BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita7	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~5)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	  BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[7]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_reg_bit1a[6] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 11
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(input)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAIN]	  BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita6	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~5)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	  BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[6]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[3] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 12
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAIN]	  BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita3	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockB:inst2|lpm_compare1:inst1|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[3]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[2] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 13
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAIN]	  BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockB:inst2|lpm_compare1:inst1|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[2]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita0 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 14
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  GND	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita0~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita0	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita0~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita0~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 00000000000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita1 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 15
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita0~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita1~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita1	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita1~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita1~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita2 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 16
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita1~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita2~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita2	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita2~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita2~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita3 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 17
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita2~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita3~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita3	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita3~COUT	LIT INDEX 0 FANOUTS 0
+		3: [SHAREOUT]	BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|counter_comb_bita3~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita0 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 18
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  GND	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita0~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita0	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita0~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita0~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 00000000000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita1 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 19
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita0~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita1~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita1	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita1~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita1~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita2 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 20
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita1~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita2~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita2	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita2~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita2~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita3 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 21
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita2~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita3~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita3	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita3~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita3~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita4 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 22
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[4]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita3~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita4~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita4	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita4~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita4~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita5 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 23
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[5]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita4~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita5~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita5	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita5~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita5~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_reg_bit1a[5] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 24
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(input)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAIN]	  BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita5	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~5)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	  !(BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[5]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_reg_bit1a[3] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 25
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(input)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAIN]	  BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita3	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~5)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	  !(BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[3]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_reg_bit1a[2] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 26
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(input)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAIN]	  BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~5)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	  !(BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[2]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_reg_bit1a[1] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 27
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(input)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAIN]	  BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~5)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	  !(BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[1]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_reg_bit1a[4] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 28
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(input)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAIN]	  BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita4	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~5)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	  !(BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[4]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_reg_bit1a[0] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 29
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(input)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAIN]	  BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~5)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	  !(BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[0]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_reg_bit1a[7] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 30
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(input)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAIN]	  BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita7	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~5)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	  !(BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[7]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_reg_bit1a[6] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 31
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(input)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		1: [DATAIN]	  BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita6	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~5)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	  !(BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[6]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita6 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 32
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[6]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita5~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita6~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita6	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita6~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita6~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita7 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 33
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[7]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita6~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita7~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita7	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita7~COUT	LIT INDEX 0 FANOUTS 0
+		3: [SHAREOUT]	BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita7~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[1] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 34
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAIN]	  BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockB:inst2|lpm_compare1:inst1|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[1]	LIT INDEX 0 FANOUTS 1 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[0] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 35
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  !(BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAIN]	  BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockB:inst2|lpm_compare1:inst1|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[0]	LIT INDEX 0 FANOUTS 1 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita0 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 36
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  GND	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita0~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita0	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita0~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita0~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 00000000000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita1 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 37
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita0~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita1~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita1	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita1~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita1~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita2 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 38
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita1~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita2~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita2	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita2~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita2~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita3 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 39
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita2~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita3~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita3	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita3~COUT	LIT INDEX 0 FANOUTS 0
+		3: [SHAREOUT]	BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita3~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[1] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 40
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAIN]	  BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockB:inst2|lpm_compare1:inst1|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[1]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[3] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 41
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAIN]	  BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita3	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockB:inst2|lpm_compare1:inst1|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[3]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[0] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 42
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAIN]	  BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockB:inst2|lpm_compare1:inst1|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[0]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_reg_bit1a[2] -- UNIQUE
+	Atom Hier Name: 
+	Atom Id: 43
+	Atom Type: stratixii_lcell_ff (WYSIWYG)
+
+	power up = low
+
+	INPUTS (Driven By):
+		0: [CLK]	  BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAIN]	  BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: [ACLR]	~ !(BlockB:inst2|lpm_compare1:inst1|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|result_wire[0])	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [ENA]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [REGOUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[2]	LIT INDEX 0 FANOUTS 2 REGED POS
+
+	PARAMETER LIST:
+		EMPTY!!
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita0 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 44
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  GND	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita0~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita0	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita0~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita0~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 00000000000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita1 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 45
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita0~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita1~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita1	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita1~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita1~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita2 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 46
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita1~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita2~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita2	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita2~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita2~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita3 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 47
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita2~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita3~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita3	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita3~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita3~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita4 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 48
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[4]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita3~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita4~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita4	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita4~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita4~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita5 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 49
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[5]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita4~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita5~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita5	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita5~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita5~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita6 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 50
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[6]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita5~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita6~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita6	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita6~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita6~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita7 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 51
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[7]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita6~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita7~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita7	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita7~COUT	LIT INDEX 0 FANOUTS 0
+		3: [SHAREOUT]	BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|counter_comb_bita7~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita0 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 52
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  GND	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita0~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita0	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita0~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita0~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 00000000000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita1 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 53
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita0~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita1~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita1	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita1~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita1~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita2 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 54
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita1~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita2~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita2	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita2~COUT	LIT INDEX 0 FANOUTS 1
+		3: [SHAREOUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita2~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita3 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 55
+	Atom Type: stratixii_lcell_comb (WYSIWYG)
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: [DATAD]	~ BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: [CIN]	  BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita2~COUT	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita3~COMBOUT	LIT INDEX 0 FANOUTS 0
+		1: [SUMOUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita3	LIT INDEX 0 FANOUTS 1
+		2: [COUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita3~COUT	LIT INDEX 0 FANOUTS 0
+		3: [SHAREOUT]	BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|counter_comb_bita3~SHAREOUT	LIT INDEX 0 FANOUTS 0
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0000FFFF000000FF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode101w[1]~0 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 75
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockB:inst2|lpm_compare_4_bits_le_3:inst12|lpm_compare:lpm_compare_component|cmpr_ubj:auto_generated|aleb	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ mode[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode101w[1]~0	LIT INDEX 0 FANOUTS 8
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 1313131313131313
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|inst11[15]~0 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 77
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode101w[1]~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: [DATAE]	~ mode[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|inst11[15]~0	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0001FFFE0001FFFE
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|inst11[14]~1 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 78
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode101w[1]~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: [DATAE]	~ mode[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|inst11[14]~1	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0010FFEF0010FFEF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|inst11[13]~2 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 79
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode101w[1]~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: [DATAE]	~ mode[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|inst11[13]~2	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0004FFFB0004FFFB
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|inst11[12]~3 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 80
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode101w[1]~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: [DATAE]	~ mode[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|inst11[12]~3	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0040FFBF0040FFBF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|inst11[11]~4 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 81
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode101w[1]~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: [DATAE]	~ mode[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|inst11[11]~4	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0002FFFD0002FFFD
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|inst11[10]~5 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 82
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode101w[1]~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: [DATAE]	~ mode[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|inst11[10]~5	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0020FFDF0020FFDF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|inst11[9]~6 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 83
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode101w[1]~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: [DATAE]	~ mode[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|inst11[9]~6	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0008FFF70008FFF7
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|inst11[8]~7 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 84
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode101w[1]~0	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: [DATAE]	~ mode[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|inst11[8]~7	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0080FF7F0080FF7F
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode3w[1]~1 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 85
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockB:inst2|lpm_compare_4_bits_le_3:inst12|lpm_compare:lpm_compare_component|cmpr_ubj:auto_generated|aleb	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ mode[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode3w[1]~1	LIT INDEX 0 FANOUTS 8
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 4C4C4C4C4C4C4C4C
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|inst11[7]~8 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 86
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ mode[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: [DATAE]	~ BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode3w[1]~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|inst11[7]~8	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 00FF01FE00FF01FE
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|inst11[6]~9 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 87
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ mode[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: [DATAE]	~ BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode3w[1]~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|inst11[6]~9	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 00FF10EF00FF10EF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|inst11[5]~10 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 88
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ mode[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: [DATAE]	~ BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode3w[1]~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|inst11[5]~10	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 00FF04FB00FF04FB
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|inst11[4]~11 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 89
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ mode[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: [DATAE]	~ BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode3w[1]~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|inst11[4]~11	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 00FF40BF00FF40BF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|inst11[3]~12 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 90
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ mode[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: [DATAE]	~ BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode3w[1]~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|inst11[3]~12	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 00FF02FD00FF02FD
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|inst11[2]~13 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 91
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ mode[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: [DATAE]	~ BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode3w[1]~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|inst11[2]~13	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 00FF20DF00FF20DF
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|inst11[1]~14 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 92
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ mode[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: [DATAE]	~ BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode3w[1]~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|inst11[1]~14	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 00FF08F700FF08F7
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockC:inst1|inst11[0]~15 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 93
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ mode[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: [DATAE]	~ BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component|decode_ltf:auto_generated|w_anode3w[1]~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockC:inst1|inst11[0]~15	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 00FF807F00FF807F
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockB:inst2|lpm_compare_4_bits_le_3:inst12|lpm_compare:lpm_compare_component|cmpr_ubj:auto_generated|aleb -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 102
+	Atom Type: stratixii_lcell_comb (USER_LCELL)
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockB:inst2|lpm_compare_4_bits_le_3:inst12|lpm_compare:lpm_compare_component|cmpr_ubj:auto_generated|aleb	LIT INDEX 0 FANOUTS 7
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 8888888888888888
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockB:inst2|lpm_compare1:inst1|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|result_wire[0] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 112
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component|cntr_04i:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockB:inst2|lpm_compare1:inst1|lpm_compare:lpm_compare_component|cmpr_i8j:auto_generated|result_wire[0]	LIT INDEX 0 FANOUTS 8
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0200020002000200
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~1 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 113
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ n[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		2: [DATAC]	~ BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ n[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~1	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 9009900990099009
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~2 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 114
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ n[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		2: [DATAC]	~ BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[4]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ n[4]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~2	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 9009900990099009
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~3 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 115
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[7]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ n[7]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		2: [DATAC]	~ BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[6]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ n[6]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~3	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 9009900990099009
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~4 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 116
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ n[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		3: [DATAD]	~ BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~3	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~4	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0041004100410041
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~5 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 117
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[5]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ n[5]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		2: [DATAC]	~ BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~4	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~5	LIT INDEX 0 FANOUTS 16
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0009000900090009
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~1 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 118
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ m[3]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		2: [DATAC]	~ BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ m[2]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~1	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 9009900990099009
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~2 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 119
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ m[1]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		2: [DATAC]	~ BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[4]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ m[4]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~2	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 9009900990099009
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~3 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 120
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[7]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ m[7]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		2: [DATAC]	~ BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[6]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ m[6]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~3	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 9009900990099009
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~4 -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 121
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~2	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		2: [DATAC]	~ m[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		3: [DATAD]	~ BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~3	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~4	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = 0041004100410041
+
+
+- ATOM ------------------------
+	ATOM_NAME: BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 122
+	Atom Type: stratixii_lcell_comb (USER_LCELL)
+
+	INPUTS (Driven By):
+		0: [DATAA]	~ BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component|cntr_coi:auto_generated|safe_q[5]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: [DATAB]	~ m[5]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:CONNECTED,NONE
+		2: [DATAC]	~ BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~1	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		3: [DATAD]	~ BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]~4	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]	LIT INDEX 0 FANOUTS 25
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		shared_arith                   = off
+		extended_lut                   = off
+		lut_mask                       = FFF6FFF6FFF6FFF6
+
+
+- ATOM ------------------------
+	ATOM_NAME: a -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 141
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|result_wire[0]	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	a	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: b -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 142
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  BlockB:inst2|lpm_compare_4_bits_le_3:inst12|lpm_compare:lpm_compare_component|cmpr_ubj:auto_generated|aleb	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	b	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: DCa[15] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 143
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  !(BlockC:inst1|inst11[15]~0)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	DCa[15]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: DCa[14] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 144
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  !(BlockC:inst1|inst11[14]~1)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	DCa[14]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: DCa[13] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 145
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  !(BlockC:inst1|inst11[13]~2)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	DCa[13]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: DCa[12] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 146
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  !(BlockC:inst1|inst11[12]~3)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	DCa[12]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: DCa[11] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 147
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  !(BlockC:inst1|inst11[11]~4)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	DCa[11]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: DCa[10] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 148
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  !(BlockC:inst1|inst11[10]~5)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	DCa[10]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: DCa[9] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 149
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  !(BlockC:inst1|inst11[9]~6)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	DCa[9]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: DCa[8] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 150
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  !(BlockC:inst1|inst11[8]~7)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	DCa[8]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: DCa[7] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 151
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  !(BlockC:inst1|inst11[7]~8)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	DCa[7]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: DCa[6] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 152
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  !(BlockC:inst1|inst11[6]~9)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	DCa[6]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: DCa[5] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 153
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  !(BlockC:inst1|inst11[5]~10)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	DCa[5]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: DCa[4] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 154
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  !(BlockC:inst1|inst11[4]~11)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	DCa[4]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: DCa[3] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 155
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  !(BlockC:inst1|inst11[3]~12)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	DCa[3]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: DCa[2] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 156
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  !(BlockC:inst1|inst11[2]~13)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	DCa[2]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: DCa[1] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 157
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  !(BlockC:inst1|inst11[1]~14)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	DCa[1]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: DCa[0] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 158
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: [DATAIN]	  !(BlockC:inst1|inst11[0]~15)	LIT INDEX 0	GLOBAL:DONT_CARE	DELAY_CHAIN:UNCONNECTED
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: NONE
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	DCa[0]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = output
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	N/A
+		PAD TO CORE 1:	N/A
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: mode[0] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 159
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	mode[0]	LIT INDEX 0 FANOUTS 2
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	mode[0]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: mode[1] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 160
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	mode[1]	LIT INDEX 0 FANOUTS 16
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	mode[1]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: m[5] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 161
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	m[5]	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	m[5]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: m[3] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 162
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	m[3]	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	m[3]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: m[2] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 163
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	m[2]	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	m[2]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: m[1] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 164
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	m[1]	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	m[1]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: m[4] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 165
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	m[4]	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	m[4]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: m[0] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 166
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	m[0]	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	m[0]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: m[7] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 167
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	m[7]	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	m[7]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: m[6] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 168
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	m[6]	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	m[6]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: input -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 169
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	input	LIT INDEX 0 FANOUTS 16
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	input	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: n[5] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 170
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	n[5]	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	n[5]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: n[3] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 171
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	n[3]	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	n[3]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: n[2] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 172
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	n[2]	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	n[2]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: n[1] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 173
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	n[1]	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	n[1]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: n[4] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 174
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	n[4]	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	n[4]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: n[0] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 175
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	n[0]	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	n[0]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: n[7] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 176
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	n[7]	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	n[7]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: n[6] -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 177
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: [PADIO]	DISCONNECTED
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	n[6]	LIT INDEX 0 FANOUTS 1
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	n[6]	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+
+- ATOM ------------------------
+	ATOM_NAME: ~QUARTUS_CREATED_GND~I -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 178
+	Atom Type: stratixii_lcell_comb
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	~QUARTUS_CREATED_GND~I	LIT INDEX 0 FANOUTS 0
+		1: NONE
+		2: NONE
+		3: NONE
+
+	PARAMETER LIST:
+		(Skipping parameters for lcell or lcell comb with no fanout)
+
+
+- ATOM ------------------------
+	ATOM_NAME: ~DATA0~ -- NON-UNIQUE
+	Atom Hier Name: 
+	Atom Id: 179
+	Atom Type: stratixii_io
+
+	INPUTS (Driven By):
+		0: NO ITERM
+		1: NO ITERM
+		2: NO ITERM
+		3: NO ITERM
+		4: NO ITERM
+		5: NO ITERM
+		6: NO ITERM
+		7: NO ITERM
+		8: NO ITERM
+		9: NO ITERM
+		10: NO ITERM
+		11: NO ITERM
+		12: NO ITERM
+	OUTPUTS (Int. Connections):
+		0: [COMBOUT]	~DATA0~	LIT INDEX 0 FANOUTS 0
+		1: NONE
+		2: NONE
+		3: NONE
+		4: NONE
+		5: NONE
+		6: [PADIO]	~DATA0~	LIT INDEX 0 FANOUTS 0
+		7: NONE
+		8: NONE
+		9: NONE
+		10: NONE
+		11: NONE
+
+	PARAMETER LIST:
+		operation_mode                 = input
+		ddio_mode                      = none
+		input_register_mode            = none
+		output_register_mode           = none
+		oe_register_mode               = none
+		input_async_reset              = none
+		output_async_reset             = none
+		oe_async_reset                 = none
+		input_sync_reset               = none
+		output_sync_reset              = none
+		oe_sync_reset                  = none
+		input_power_up                 = low
+		output_power_up                = low
+		oe_power_up                    = low
+		dqs_out_mode                   = none
+		dqs_delay_buffer_mode          = none
+		inclk_input                    = normal
+		ddioinclk_input                = negated_inclk
+		dft_delayctrl_select           = 0
+		sim_dqs_intrinsic_delay        = 0
+		sim_dqs_delay_increment        = 0
+		sim_dqs_offset_increment       = 0
+
+	DELAY CHAINS:
+		PAD TO CORE 0:	0
+		PAD TO CORE 1:	0
+		TCO CHAIN:	0
+		TCOE CHAIN:	0
+		PAD TO INPUT REG:	0
+		DQS LOCAL CLOCK:	0
+		NDQS LOCAL CLOCK:	0
+		DQSOUT:	0
+
+	IO STANDARD:			3.3-V LVTTL
+	CURRENT STRENGTH:		DEFAULT
+	PCI DIODE:       		OFF
+	TERMINATION:     		OFF
+	Output Duty Cycle:		OFF
+	DQS INFORMATION:			
+		Not a DQS atom.
+		DQS system clock:	False
+	PLL COMPENSATED:		False
+

@@ -1,0 +1,99 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 240 208)
+	(text "Control_Block" (rect 5 0 82 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 176 25 188)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clock" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "clock" (rect 21 27 50 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 224 32)
+		(output)
+		(text "stage[3..0]" (rect 0 0 60 14)(font "Arial" (font_size 8)))
+		(text "stage[3..0]" (rect 143 27 203 41)(font "Arial" (font_size 8)))
+		(line (pt 224 32)(pt 208 32)(line_width 3))
+	)
+	(port
+		(pt 224 48)
+		(output)
+		(text "address_manager_clock" (rect 0 0 140 14)(font "Arial" (font_size 8)))
+		(text "address_manager_clock" (rect 63 43 203 57)(font "Arial" (font_size 8)))
+		(line (pt 224 48)(pt 208 48))
+	)
+	(port
+		(pt 224 64)
+		(output)
+		(text "rom_enable" (rect 0 0 66 14)(font "Arial" (font_size 8)))
+		(text "rom_enable" (rect 137 59 203 73)(font "Arial" (font_size 8)))
+		(line (pt 224 64)(pt 208 64))
+	)
+	(port
+		(pt 224 80)
+		(output)
+		(text "buffer_write" (rect 0 0 71 14)(font "Arial" (font_size 8)))
+		(text "buffer_write" (rect 132 75 203 89)(font "Arial" (font_size 8)))
+		(line (pt 224 80)(pt 208 80))
+	)
+	(port
+		(pt 224 96)
+		(output)
+		(text "buffer_read" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "buffer_read" (rect 135 91 203 105)(font "Arial" (font_size 8)))
+		(line (pt 224 96)(pt 208 96))
+	)
+	(port
+		(pt 224 112)
+		(output)
+		(text "ram_write_enable" (rect 0 0 102 14)(font "Arial" (font_size 8)))
+		(text "ram_write_enable" (rect 101 107 203 121)(font "Arial" (font_size 8)))
+		(line (pt 224 112)(pt 208 112))
+	)
+	(port
+		(pt 224 128)
+		(output)
+		(text "ram_write" (rect 0 0 57 14)(font "Arial" (font_size 8)))
+		(text "ram_write" (rect 146 123 203 137)(font "Arial" (font_size 8)))
+		(line (pt 224 128)(pt 208 128))
+	)
+	(port
+		(pt 224 144)
+		(output)
+		(text "ram_read_enable" (rect 0 0 99 14)(font "Arial" (font_size 8)))
+		(text "ram_read_enable" (rect 104 139 203 153)(font "Arial" (font_size 8)))
+		(line (pt 224 144)(pt 208 144))
+	)
+	(port
+		(pt 224 160)
+		(output)
+		(text "ram_read" (rect 0 0 54 14)(font "Arial" (font_size 8)))
+		(text "ram_read" (rect 149 155 203 169)(font "Arial" (font_size 8)))
+		(line (pt 224 160)(pt 208 160))
+	)
+	(drawing
+		(rectangle (rect 16 16 208 176))
+	)
+)

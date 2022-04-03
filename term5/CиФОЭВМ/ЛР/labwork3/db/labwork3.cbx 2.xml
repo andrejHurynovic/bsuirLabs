@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="labwork3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Bufer:inst12|lpm_decode0:inst11|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_5sf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|Bufer:inst12|lpm_mux0:inst8|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_3oc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|main|ROM:inst2|lpm_rom0:inst1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_kp61.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Nov 08 12:58:35 2021
+Quartus II 32-bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : labwork3
+Top-level Entity Name : main
+Family : Cyclone III
+Device : EP3C5F256C6
+Timing Models : Final
+Total logic elements : 86 / 5,136 ( 2 % )
+    Total combinational functions : 74 / 5,136 ( 1 % )
+    Dedicated logic registers : 53 / 5,136 ( 1 % )
+Total registers : 53
+Total pins : 25 / 183 ( 14 % )
+Total virtual pins : 0
+Total memory bits : 256 / 423,936 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

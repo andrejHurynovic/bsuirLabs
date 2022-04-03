@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Labwork_2">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Main|BlockA:inst|lpm_counter_8_bits:inst3|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_coi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Main|BlockB:inst2|lpm_counter_4_bits:inst8|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_04i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Main|BlockB:inst2|lpm_counter_4_bits:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_04i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Main|BlockC:inst1|lpm_counter0:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_qlh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Main|BlockA:inst|lpm_compare_8_bits:inst5|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_fig.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Main|BlockA:inst|lpm_counter_8_bits:inst2|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_coi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Main|BlockB:inst2|lpm_compare1:inst1|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_i8j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Main|BlockC:inst1|lpm_decode0:inst1|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_ltf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Main|BlockA:inst|lpm_compare_8_bits:inst4|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_fig.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Main|BlockB:inst2|lpm_compare_4_bits_le_3:inst12|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_ubj.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

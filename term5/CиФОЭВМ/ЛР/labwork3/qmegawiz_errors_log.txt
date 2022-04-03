@@ -1,0 +1,55 @@
+
+
+C:/users/crossover/Desktop/My Mac Desktop/labwork3/lpm_tff0.tdf
+
+Nov 08 10AM:36:21>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/users/crossover/Desktop/My Mac Desktop/labwork3/lpm_tff0.tdf
+
+Nov 08 10AM:36:24>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/users/crossover/Desktop/My Mac Desktop/labwork3/lpm_tff0.tdf
+
+Nov 08 10AM:36:26>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/users/crossover/Desktop/My Mac Desktop/labwork3/lpm_compare2.vhd
+
+Nov 08 02PM:02:45>: Error in CNX file format.
+
+Error messages are listed in file
+C:/users/crossover/Desktop/My Mac Desktop/labwork3/lpm_compare2.cnxerr.
+
+Can't create the custom megafunction variation file(s)
+
+C:/users/crossover/Desktop/My Mac Desktop/labwork3/lpm_tff0.tdf
+
+Nov 20 11PM:03:29>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/users/crossover/Desktop/My Mac Desktop/labwork3/lpm_tff0.tdf
+
+Nov 20 11PM:03:32>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/users/crossover/Desktop/My Mac Desktop/labwork3/lpm_tff0.tdf
+
+Nov 20 11PM:03:35>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/users/crossover/Desktop/My Mac Desktop/labwork3/lpm_tff0.tdf
+
+Nov 20 11PM:12:17>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/users/crossover/Desktop/My Mac Desktop/labwork3/lpm_tff0.tdf
+
+Nov 20 11PM:12:50>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+C:/users/crossover/Desktop/My Mac Desktop/labwork3/lpm_tff0.tdf
+
+Nov 20 11PM:12:57>: Megafunction LPM_FF is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
