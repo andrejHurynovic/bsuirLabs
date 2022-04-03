@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/ilya/Projects/BSUIR/C++/TOKC/LabWork_5
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/ilya/Projects/BSUIR/C++/TOKC/LabWork_5/cmake-build-debug

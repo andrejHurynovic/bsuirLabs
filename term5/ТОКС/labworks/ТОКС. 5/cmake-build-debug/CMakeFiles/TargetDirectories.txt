@@ -1,0 +1,3 @@
+/Users/ilya/Projects/BSUIR/C++/TOKC/LabWork_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ilya/Projects/BSUIR/C++/TOKC/LabWork_5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ilya/Projects/BSUIR/C++/TOKC/LabWork_5/cmake-build-debug/CMakeFiles/LabWork_5.dir
