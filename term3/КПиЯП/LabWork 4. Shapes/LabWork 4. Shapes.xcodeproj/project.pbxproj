@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B47249D5251A04F9005B7C8E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B47249D4251A04F9005B7C8E /* main.cpp */; };
+		B4B5D9EA253D693B00CAA5A5 /* Parallelepiped.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4B5D9E7253D693B00CAA5A5 /* Parallelepiped.cpp */; };
+		B4B5D9EB253D693B00CAA5A5 /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4B5D9E8253D693B00CAA5A5 /* Sphere.cpp */; };
+		B4B5D9EC253D693B00CAA5A5 /* Cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4B5D9E9253D693B00CAA5A5 /* Cube.cpp */; };
+		B4B5D9F2253D696200CAA5A5 /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4B5D9EF253D696200CAA5A5 /* Rectangle.cpp */; };
+		B4B5D9F3253D696200CAA5A5 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4B5D9F0253D696200CAA5A5 /* Circle.cpp */; };
+		B4B5D9F4253D696200CAA5A5 /* Square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4B5D9F1253D696200CAA5A5 /* Square.cpp */; };
+		B4ED12CE252E3DAE00F92142 /* Circle.h in Sources */ = {isa = PBXBuildFile; fileRef = B4ED12CD252E3DAE00F92142 /* Circle.h */; };
+		B4ED12D4252E3F0800F92142 /* Square.h in Sources */ = {isa = PBXBuildFile; fileRef = B4ED12D3252E3F0800F92142 /* Square.h */; };
+		B4ED12D6252E3F2E00F92142 /* Rectangle.h in Sources */ = {isa = PBXBuildFile; fileRef = B4ED12D5252E3F2E00F92142 /* Rectangle.h */; };
+		B4ED12DC252E404600F92142 /* Parallelepiped.h in Sources */ = {isa = PBXBuildFile; fileRef = B4ED12DB252E404600F92142 /* Parallelepiped.h */; };
+		B4ED12DE252E405B00F92142 /* Cube.h in Sources */ = {isa = PBXBuildFile; fileRef = B4ED12DD252E405B00F92142 /* Cube.h */; };
+		B4ED12E0252E406500F92142 /* Sphere.h in Sources */ = {isa = PBXBuildFile; fileRef = B4ED12DF252E406500F92142 /* Sphere.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B47249CF251A04F9005B7C8E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B47249D1251A04F9005B7C8E /* LabWork 4. Shapes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LabWork 4. Shapes"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B47249D4251A04F9005B7C8E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B4B5D9E0253D683300CAA5A5 /* ShapesLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapesLibrary.h; sourceTree = "<group>"; };
+		B4B5D9E7253D693B00CAA5A5 /* Parallelepiped.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parallelepiped.cpp; sourceTree = "<group>"; };
+		B4B5D9E8253D693B00CAA5A5 /* Sphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sphere.cpp; sourceTree = "<group>"; };
+		B4B5D9E9253D693B00CAA5A5 /* Cube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cube.cpp; sourceTree = "<group>"; };
+		B4B5D9EF253D696200CAA5A5 /* Rectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle.cpp; sourceTree = "<group>"; };
+		B4B5D9F0253D696200CAA5A5 /* Circle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
+		B4B5D9F1253D696200CAA5A5 /* Square.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Square.cpp; sourceTree = "<group>"; };
+		B4ED12C9252E37BE00F92142 /* TwoDismensionShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoDismensionShape.h; sourceTree = "<group>"; };
+		B4ED12CA252E39E400F92142 /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		B4ED12CD252E3DAE00F92142 /* Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		B4ED12D3252E3F0800F92142 /* Square.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		B4ED12D5252E3F2E00F92142 /* Rectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		B4ED12D8252E3F5900F92142 /* ThreeDismensionShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeDismensionShape.h; sourceTree = "<group>"; };
+		B4ED12DB252E404600F92142 /* Parallelepiped.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parallelepiped.h; sourceTree = "<group>"; };
+		B4ED12DD252E405B00F92142 /* Cube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		B4ED12DF252E406500F92142 /* Sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B47249CE251A04F9005B7C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B47249C8251A04F9005B7C8E = {
+			isa = PBXGroup;
+			children = (
+				B47249D3251A04F9005B7C8E /* LabWork 4. Shapes */,
+				B47249D2251A04F9005B7C8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B47249D2251A04F9005B7C8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B47249D1251A04F9005B7C8E /* LabWork 4. Shapes */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B47249D3251A04F9005B7C8E /* LabWork 4. Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				B47249D4251A04F9005B7C8E /* main.cpp */,
+				B4ED12C7252E36A500F92142 /* Headers */,
+				B4ED12D2252E3ED700F92142 /* Sources */,
+			);
+			path = "LabWork 4. Shapes";
+			sourceTree = "<group>";
+		};
+		B4B5D9E6253D693B00CAA5A5 /* ThreeDismentionShape */ = {
+			isa = PBXGroup;
+			children = (
+				B4B5D9E7253D693B00CAA5A5 /* Parallelepiped.cpp */,
+				B4B5D9E8253D693B00CAA5A5 /* Sphere.cpp */,
+				B4B5D9E9253D693B00CAA5A5 /* Cube.cpp */,
+			);
+			path = ThreeDismentionShape;
+			sourceTree = "<group>";
+		};
+		B4B5D9EE253D694200CAA5A5 /* TwoDismentionShapes */ = {
+			isa = PBXGroup;
+			children = (
+				B4B5D9F0253D696200CAA5A5 /* Circle.cpp */,
+				B4B5D9EF253D696200CAA5A5 /* Rectangle.cpp */,
+				B4B5D9F1253D696200CAA5A5 /* Square.cpp */,
+			);
+			path = TwoDismentionShapes;
+			sourceTree = "<group>";
+		};
+		B4ED12C7252E36A500F92142 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				B4ED12CA252E39E400F92142 /* Shape.h */,
+				B4ED12D1252E3EBD00F92142 /* TwoDismentionShapes */,
+				B4ED12E3252E427700F92142 /* ThreeDismentionShape */,
+				B4B5D9E0253D683300CAA5A5 /* ShapesLibrary.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		B4ED12D1252E3EBD00F92142 /* TwoDismentionShapes */ = {
+			isa = PBXGroup;
+			children = (
+				B4ED12C9252E37BE00F92142 /* TwoDismensionShape.h */,
+				B4ED12CD252E3DAE00F92142 /* Circle.h */,
+				B4ED12D3252E3F0800F92142 /* Square.h */,
+				B4ED12D5252E3F2E00F92142 /* Rectangle.h */,
+			);
+			path = TwoDismentionShapes;
+			sourceTree = "<group>";
+		};
+		B4ED12D2252E3ED700F92142 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B4B5D9EE253D694200CAA5A5 /* TwoDismentionShapes */,
+				B4B5D9E6253D693B00CAA5A5 /* ThreeDismentionShape */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B4ED12E3252E427700F92142 /* ThreeDismentionShape */ = {
+			isa = PBXGroup;
+			children = (
+				B4ED12D8252E3F5900F92142 /* ThreeDismensionShape.h */,
+				B4ED12DB252E404600F92142 /* Parallelepiped.h */,
+				B4ED12DD252E405B00F92142 /* Cube.h */,
+				B4ED12DF252E406500F92142 /* Sphere.h */,
+			);
+			path = ThreeDismentionShape;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B47249D0251A04F9005B7C8E /* LabWork 4. Shapes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B47249D8251A04F9005B7C8E /* Build configuration list for PBXNativeTarget "LabWork 4. Shapes" */;
+			buildPhases = (
+				B47249CD251A04F9005B7C8E /* Sources */,
+				B47249CE251A04F9005B7C8E /* Frameworks */,
+				B47249CF251A04F9005B7C8E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LabWork 4. Shapes";
+			productName = "LabWork 4. Shapes";
+			productReference = B47249D1251A04F9005B7C8E /* LabWork 4. Shapes */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B47249C9251A04F9005B7C8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					B47249D0251A04F9005B7C8E = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = B47249CC251A04F9005B7C8E /* Build configuration list for PBXProject "LabWork 4. Shapes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B47249C8251A04F9005B7C8E;
+			productRefGroup = B47249D2251A04F9005B7C8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B47249D0251A04F9005B7C8E /* LabWork 4. Shapes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B47249CD251A04F9005B7C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4ED12DE252E405B00F92142 /* Cube.h in Sources */,
+				B4B5D9F3253D696200CAA5A5 /* Circle.cpp in Sources */,
+				B4B5D9F4253D696200CAA5A5 /* Square.cpp in Sources */,
+				B4B5D9EB253D693B00CAA5A5 /* Sphere.cpp in Sources */,
+				B4ED12E0252E406500F92142 /* Sphere.h in Sources */,
+				B4ED12DC252E404600F92142 /* Parallelepiped.h in Sources */,
+				B4B5D9F2253D696200CAA5A5 /* Rectangle.cpp in Sources */,
+				B4B5D9EC253D693B00CAA5A5 /* Cube.cpp in Sources */,
+				B4ED12D4252E3F0800F92142 /* Square.h in Sources */,
+				B47249D5251A04F9005B7C8E /* main.cpp in Sources */,
+				B4ED12D6252E3F2E00F92142 /* Rectangle.h in Sources */,
+				B4ED12CE252E3DAE00F92142 /* Circle.h in Sources */,
+				B4B5D9EA253D693B00CAA5A5 /* Parallelepiped.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B47249D6251A04F9005B7C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B47249D7251A04F9005B7C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B47249D9251A04F9005B7C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4638VTQ6Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B47249DA251A04F9005B7C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4638VTQ6Z;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B47249CC251A04F9005B7C8E /* Build configuration list for PBXProject "LabWork 4. Shapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B47249D6251A04F9005B7C8E /* Debug */,
+				B47249D7251A04F9005B7C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B47249D8251A04F9005B7C8E /* Build configuration list for PBXNativeTarget "LabWork 4. Shapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B47249D9251A04F9005B7C8E /* Debug */,
+				B47249DA251A04F9005B7C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B47249C9251A04F9005B7C8E /* Project object */;
+}
