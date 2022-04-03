@@ -6,3 +6,5 @@
 - [СА](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/СА) (Никульшин Б.В. / Байдун Д.Р.)
 - [Социология](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/Социология) (Качалов И.Л.)
 - [ТРиТПО](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/ТРиТПО) (Шевчук О.Г. / Полуян Т.В.)
+- [ЦОСиИ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/ЦОСиИ) (Перцев Д.Ю.)
+- [Экономика](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/Экономика) (Титова Е.Э)
