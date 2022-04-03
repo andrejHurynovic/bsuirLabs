@@ -1,0 +1,42 @@
+Feb 23 03:16:59.288 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Feb 23 03:16:59.288 HYPERVISOR: Started on IP = localhost, TCP port = 56427.
+Feb 23 03:16:59.298 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 23 03:16:59.298 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/BSUIR/АКСиС/Labwork 1/project-files/dynamips 
+Feb 23 03:16:59.298 GENERAL: working_dir=/Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/BSUIR/АКСиС/Labwork 1/project-files/dynamips
+Feb 23 03:16:59.299 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/BSUIR/АКСиС/Labwork 1/project-files/dynamips/55116fe8-4c85-46a1-8bdb-532a686176a4 
+Feb 23 03:16:59.299 GENERAL: working_dir=/Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/BSUIR/АКСиС/Labwork 1/project-files/dynamips/55116fe8-4c85-46a1-8bdb-532a686176a4
+Feb 23 03:16:59.300 HYPERVISOR: exec_cmd: vm create R7 7 c1700 
+Feb 23 03:16:59.301 VM: VM R7 created.
+Feb 23 03:16:59.301 HYPERVISOR: exec_cmd: vm set_con_tcp_port R7 5006 
+Feb 23 03:16:59.302 HYPERVISOR: exec_cmd: c1700 get_mac_addr R7 
+Feb 23 03:16:59.303 HYPERVISOR: exec_cmd: vm set_ios R7 /Users/andrejhurynovic/GNS3/images/IOS/c1700-sy-mz.122-15.T17.image 
+Feb 23 03:16:59.304 HYPERVISOR: exec_cmd: c1700 set_iomem R7 5 
+Feb 23 03:16:59.305 HYPERVISOR: exec_cmd: c1700 set_mac_addr R7 d007.02ea.0000 
+Feb 23 03:16:59.306 HYPERVISOR: exec_cmd: vm set_nvram R7 128 
+Feb 23 03:16:59.307 HYPERVISOR: exec_cmd: vm set_ram R7 160 
+Feb 23 03:16:59.308 HYPERVISOR: exec_cmd: vm set_sparse_mem R7 1 
+Feb 23 03:16:59.310 HYPERVISOR: exec_cmd: vm get_status R7 
+Feb 23 03:16:59.311 HYPERVISOR: exec_cmd: vm slot_add_binding R7 0 16 WIC-1ENET 
+Feb 23 03:16:59.313 HYPERVISOR: exec_cmd: vm get_status R7 
+Feb 23 03:16:59.313 HYPERVISOR: exec_cmd: vm slot_add_binding R7 0 32 WIC-1ENET 
+Feb 23 03:17:01.388 HYPERVISOR: exec_cmd: nio create_udp udp-3387f7e9-bc2e-4cbb-b06a-3a25df3e0cd5 10028 127.0.0.1 10029 
+Feb 23 03:17:01.617 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 0 0 udp-3387f7e9-bc2e-4cbb-b06a-3a25df3e0cd5 
+Feb 23 03:17:01.617 HYPERVISOR: exec_cmd: vm get_status R7 
+Feb 23 03:17:01.936 HYPERVISOR: exec_cmd: nio create_udp udp-801fe16a-aa91-4533-bff5-857520a08c02 10034 127.0.0.1 10035 
+Feb 23 03:17:01.938 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 0 16 udp-801fe16a-aa91-4533-bff5-857520a08c02 
+Feb 23 03:17:01.939 HYPERVISOR: exec_cmd: vm get_status R7 
+Feb 23 03:17:02.473 HYPERVISOR: exec_cmd: nio create_udp udp-9884bf0d-ec16-4f03-94ba-ddfb4a8613c1 10046 127.0.0.1 10047 
+Feb 23 03:17:02.476 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 0 32 udp-9884bf0d-ec16-4f03-94ba-ddfb4a8613c1 
+Feb 23 03:17:02.476 HYPERVISOR: exec_cmd: vm get_status R7 
+Feb 23 03:18:20.392 HYPERVISOR: exec_cmd: vm set_ios R7 /Users/andrejhurynovic/GNS3/images/IOS/c1700-sy-mz.122-15.T17.image 
+Feb 23 03:19:32.270 HYPERVISOR: exec_cmd: vm set_ios R7 /Users/andrejhurynovic/GNS3/images/IOS/c1700-sy-mz.122-15.T17.image 
+Feb 23 03:19:40.102 HYPERVISOR: exec_cmd: vm set_ios R7 /Users/andrejhurynovic/GNS3/images/IOS/c1700-sy-mz.122-15.T17.image 
+Feb 23 03:22:01.229 HYPERVISOR: exec_cmd: vm get_status R7 
+Feb 23 03:22:01.230 HYPERVISOR: exec_cmd: vm extract_config R7 
+Feb 23 03:22:01.512 HYPERVISOR: exec_cmd: vm get_status R7 
+Feb 23 03:22:01.513 HYPERVISOR: exec_cmd: vm extract_config R7 
+Feb 23 03:22:01.514 HYPERVISOR: exec_cmd: vm delete R7 
+Feb 23 03:22:01.515 VM: VM R7 destroyed.
+Feb 23 03:22:01.517 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 23 03:22:01.765 HYPERVISOR: Stopped.
+Feb 23 03:22:01.765 GENERAL: reset done.
