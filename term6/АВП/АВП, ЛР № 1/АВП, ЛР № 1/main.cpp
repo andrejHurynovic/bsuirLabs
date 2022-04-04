@@ -22,6 +22,64 @@ const int finalMatrixSize = 512;
 float firstMatrix[finalMatrixSize][finalMatrixSize][innerRowSize];
 float secondMatrix[finalMatrixSize][finalMatrixSize][innerRowSize];
 float resultMatrix[finalMatrixSize][finalMatrixSize][innerRowSize];
+float previousMatrix[finalMatrixSize][finalMatrixSize][innerRowSize];
+
+
+
+void randomizeFirstAndSecondMatrix() {
+    random_device randomDevice;
+    mt19937 e{randomDevice()};
+    uniform_real_distribution<> dist{1, 500};
+    
+    for(int i = 0; i < finalMatrixSize; i++) {
+        for(int j = 0; j < finalMatrixSize; j++) {
+            for(int k = 0; k < innerRowSize; k++) {
+                firstMatrix[i][j][k] = dist(randomDevice);
+            }
+        }
+    }
+    
+    for(int i = 0; i < finalMatrixSize; i++) {
+        for(int j = 0; j < finalMatrixSize; j++) {
+            for(int k = 0; k < innerRowSize; k++) {
+                secondMatrix[i][j][k] = dist(randomDevice);
+            }
+        }
+    }
+}
+
+void cleanResult() {
+    for(int i = 0; i < finalMatrixSize; i++) {
+        for(int j = 0; j < finalMatrixSize; j++) {
+            for(int k = 0; k < innerRowSize; k++) {
+                resultMatrix[i][j][k] = 0;
+            }
+        }
+    }
+}
+
+void copyMatrix() {
+    for(int i = 0; i < finalMatrixSize; i++) {
+        for(int j = 0; j < finalMatrixSize; j++) {
+            previousMatrix[i][j][0] = resultMatrix[i][j][0];
+            previousMatrix[i][j][1] = resultMatrix[i][j][1];
+        }
+    }
+}
+
+bool compareMatrix() {
+    for(int i = 0; i < finalMatrixSize; i++) {
+        for(int j = 0; j < finalMatrixSize; j++) {
+            if(previousMatrix[i][j][0] != resultMatrix[i][j][0] || previousMatrix[i][j][1] != resultMatrix[i][j][1]) {
+                cout << "Matrixes are not equal!" << endl;
+                return false;
+            }
+        }
+    }
+    return true;
+}
+
+
 
 void withoutAutomaticVectorization() {
     LOG_DURATION("Without automatic vectorization:  ");
@@ -46,7 +104,7 @@ void withAutomaticVectorization() {
         for (int j = 0; j < finalMatrixSize; j++) {
             float constantA = firstMatrix[i][j][0];
             float constantB = firstMatrix[i][j][1];
-#pragma clang loop vectorize(enable) interleave(enable)
+            #pragma clang loop vectorize(enable) interleave(enable)
             for (int k = 0; k < finalMatrixSize; k++) {
                 resultMatrix[i][k][0] += constantA * secondMatrix[j][k][0];
                 resultMatrix[i][k][1] += constantB * secondMatrix[j][k][1];
@@ -82,52 +140,31 @@ void withManualVectorization() {
 }
 
 
-void cleanResult() {
-    for(int i = 0; i < finalMatrixSize; i++) {
-        for(int j = 0; j < finalMatrixSize; j++) {
-            for(int k = 0; k < innerRowSize; k++) {
-                resultMatrix[i][j][k] = 0;
-            }
-        }
-    }
-}
-
-void hashMatrix() {
-    hash<string> stringHash;
-    
-//    stringHash();
-}
 
 int main(int argc, const char * argv[]) {
-    std::random_device rd;
-    std::mt19937 e{rd()};
-    std::uniform_real_distribution<> dist{1, 500};
     
-    for(int i = 0; i < finalMatrixSize; i++) {
-        for(int j = 0; j < finalMatrixSize; j++) {
-            for(int k = 0; k < innerRowSize; k++) {
-                firstMatrix[i][j][k] = dist(rd);
-            }
-        }
-    }
+    randomizeFirstAndSecondMatrix();
     
-    for(int i = 0; i < finalMatrixSize; i++) {
-        for(int j = 0; j < finalMatrixSize; j++) {
-            for(int k = 0; k < innerRowSize; k++) {
-                secondMatrix[i][j][k] = dist(rd);
-            }
-        }
-    }
-    
-    for (int i = 0; i < 6; i++) {
+    for (int i = 0; i < 4; i++) {
         withoutAutomaticVectorization();
+        
+        copyMatrix();
+        compareMatrix();
         cleanResult();
+        
         withAutomaticVectorization();
+        
+        copyMatrix();
+        compareMatrix();
         cleanResult();
+        
         withManualVectorization();
+        
+        copyMatrix();
+        compareMatrix();
         cleanResult();
+        
         cout << endl;
     }
-    
     return 0;
 }
