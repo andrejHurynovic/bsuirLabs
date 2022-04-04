@@ -132,6 +132,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -182,7 +183,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -191,6 +192,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -235,6 +237,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -242,9 +245,30 @@
 		F69F743D27F76AFC0040B0D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = x86_64;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L4638VTQ6Z;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-IHEADER",
+					"-O3",
+					"-Rpass=loop-vectorize",
+					"-mfpmath=sse",
+					"-ftree-vectorize",
+					"-fassociative-math",
+					"-DNDEBUG\n-IHEADER",
+					"-O3",
+					"-Rpass=loop-vectorize",
+					"-mfpmath=sse",
+					"-ftree-vectorize",
+					"-fassociative-math",
+					"-DNDEBUG\n-IHEADER",
+					"-Rpass=loop-vectorize",
+					"-mavx2",
+					"-DNDEBUG",
+					"-O3",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -252,9 +276,30 @@
 		F69F743E27F76AFC0040B0D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = x86_64;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L4638VTQ6Z;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-IHEADER",
+					"-O3",
+					"-Rpass=loop-vectorize",
+					"-mfpmath=sse",
+					"-ftree-vectorize",
+					"-fassociative-math",
+					"-DNDEBUG\n-IHEADER",
+					"-O3",
+					"-Rpass=loop-vectorize",
+					"-mfpmath=sse",
+					"-ftree-vectorize",
+					"-fassociative-math",
+					"-DNDEBUG\n-IHEADER",
+					"-Rpass=loop-vectorize",
+					"-mavx2",
+					"-DNDEBUG",
+					"-O3",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
