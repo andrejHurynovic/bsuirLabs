@@ -8,7 +8,6 @@
 //Вариант: float 2x1
 
 #include <iostream>
-#include <array>
 #include <random>
 #include <immintrin.h>
 
