@@ -1,0 +1,97 @@
+May 11 02:13:41.087 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+May 11 02:13:41.088 HYPERVISOR: Started on IP = localhost, TCP port = 55251.
+May 11 02:13:41.095 HYPERVISOR: exec_cmd: hypervisor version 
+May 11 02:13:41.096 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/bsuirLabs/term6/АКСиС/АКСиС, ЛР № 4/project-files/dynamips 
+May 11 02:13:41.096 GENERAL: working_dir=/Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/bsuirLabs/term6/АКСиС/АКСиС, ЛР № 4/project-files/dynamips
+May 11 02:13:41.096 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/bsuirLabs/term6/АКСиС/АКСиС, ЛР № 4/project-files/dynamips/83b50a1b-6911-4d23-ae18-728cffab798e 
+May 11 02:13:41.096 GENERAL: working_dir=/Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/bsuirLabs/term6/АКСиС/АКСиС, ЛР № 4/project-files/dynamips/83b50a1b-6911-4d23-ae18-728cffab798e
+May 11 02:13:41.096 HYPERVISOR: exec_cmd: vm create R7 7 c1700 
+May 11 02:13:41.097 VM: VM R7 created.
+May 11 02:13:41.097 HYPERVISOR: exec_cmd: vm set_con_tcp_port R7 5013 
+May 11 02:13:41.098 HYPERVISOR: exec_cmd: c1700 get_mac_addr R7 
+May 11 02:13:41.099 HYPERVISOR: exec_cmd: vm set_ios R7 /Users/andrejhurynovic/GNS3/images/IOS/c1700-sy-mz.122-15.T17.image 
+May 11 02:13:41.100 HYPERVISOR: exec_cmd: c1700 set_iomem R7 5 
+May 11 02:13:41.101 HYPERVISOR: exec_cmd: c1700 set_mac_addr R7 d007.02ea.0000 
+May 11 02:13:41.101 HYPERVISOR: exec_cmd: vm set_nvram R7 128 
+May 11 02:13:41.102 HYPERVISOR: exec_cmd: vm set_ram R7 160 
+May 11 02:13:41.103 HYPERVISOR: exec_cmd: vm set_sparse_mem R7 1 
+May 11 02:13:41.103 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 02:13:41.104 HYPERVISOR: exec_cmd: vm slot_add_binding R7 0 16 WIC-1ENET 
+May 11 02:13:41.104 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 02:13:41.105 HYPERVISOR: exec_cmd: vm slot_add_binding R7 0 32 WIC-1ENET 
+May 11 02:13:42.829 HYPERVISOR: exec_cmd: nio create_udp udp-4d3ea604-bb7b-4023-8f05-92b9bcc62f9b 10028 127.0.0.1 10029 
+May 11 02:13:43.048 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 0 0 udp-4d3ea604-bb7b-4023-8f05-92b9bcc62f9b 
+May 11 02:13:43.049 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 02:13:43.354 HYPERVISOR: exec_cmd: nio create_udp udp-881ead6b-3060-4669-bae6-53ff8312df62 10034 127.0.0.1 10035 
+May 11 02:13:43.356 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 0 16 udp-881ead6b-3060-4669-bae6-53ff8312df62 
+May 11 02:13:43.357 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 02:13:43.774 HYPERVISOR: exec_cmd: nio create_udp udp-3d27bcc4-7ed4-46c8-82cc-c0a84bdb77bc 10046 127.0.0.1 10047 
+May 11 02:13:43.776 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R7 0 32 udp-3d27bcc4-7ed4-46c8-82cc-c0a84bdb77bc 
+May 11 02:13:43.776 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 02:13:52.415 HYPERVISOR: exec_cmd: vm set_ghost_status R7 2 
+May 11 02:13:52.416 HYPERVISOR: exec_cmd: vm set_ghost_file R7 /Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/bsuirLabs/term6/АКСиС/АКСиС, ЛР № 4/project-files/dynamips/c1700-sy-mz.122-15.T17.image-160.ghost 
+May 11 02:13:52.417 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 02:13:52.417 HYPERVISOR: exec_cmd: vm set_config R7 configs/i7_startup-config.cfg 
+May 11 02:13:52.418 HYPERVISOR: exec_cmd: vm start R7 
+May 11 02:13:52.426 GHOST: loaded ghost image /Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/bsuirLabs/term6/АКСиС/АКСиС, ЛР № 4/project-files/dynamips/c1700-sy-mz.122-15.T17.image-160.ghost (fd=16) at addr=0x10e102000 (size=0xa000000)
+May 11 02:13:52.426 GHOST: loaded image /Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/bsuirLabs/term6/АКСиС/АКСиС, ЛР № 4/project-files/dynamips/c1700-sy-mz.122-15.T17.image-160.ghost successfully.
+May 11 02:14:22.650 HYPERVISOR: exec_cmd: vm extract_config R7 
+May 11 02:16:07.074 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 02:16:07.075 HYPERVISOR: exec_cmd: vm suspend R7 
+May 11 02:33:46.681 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 03:00:35.112 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 03:14:10.974 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 03:17:58.328 HYPERVISOR: exec_cmd: vm set_ghost_status R7 2 
+May 11 03:17:58.330 HYPERVISOR: exec_cmd: vm set_ghost_file R7 /Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/bsuirLabs/term6/АКСиС/АКСиС, ЛР № 4/project-files/dynamips/c1700-sy-mz.122-15.T17.image-160.ghost 
+May 11 03:17:58.331 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 03:17:58.331 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 03:17:58.332 HYPERVISOR: exec_cmd: vm resume R7 
+May 11 03:19:12.123 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 03:19:12.124 HYPERVISOR: exec_cmd: vm suspend R7 
+May 11 03:22:09.730 HYPERVISOR: exec_cmd: vm set_ghost_status R7 2 
+May 11 03:22:09.732 HYPERVISOR: exec_cmd: vm set_ghost_file R7 /Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/bsuirLabs/term6/АКСиС/АКСиС, ЛР № 4/project-files/dynamips/c1700-sy-mz.122-15.T17.image-160.ghost 
+May 11 03:22:09.733 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 03:22:09.735 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 03:22:09.739 HYPERVISOR: exec_cmd: vm resume R7 
+May 11 03:47:24.597 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 03:47:24.600 HYPERVISOR: exec_cmd: vm suspend R7 
+May 11 03:48:20.122 HYPERVISOR: exec_cmd: vm set_ghost_status R7 2 
+May 11 03:48:20.125 HYPERVISOR: exec_cmd: vm set_ghost_file R7 /Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/bsuirLabs/term6/АКСиС/АКСиС, ЛР № 4/project-files/dynamips/c1700-sy-mz.122-15.T17.image-160.ghost 
+May 11 03:48:20.127 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 03:48:20.141 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 03:48:20.146 HYPERVISOR: exec_cmd: vm resume R7 
+May 11 04:52:12.257 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 04:52:12.260 HYPERVISOR: exec_cmd: vm suspend R7 
+May 11 04:53:26.977 HYPERVISOR: exec_cmd: vm set_ghost_status R7 2 
+May 11 04:53:26.981 HYPERVISOR: exec_cmd: vm set_ghost_file R7 /Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/bsuirLabs/term6/АКСиС/АКСиС, ЛР № 4/project-files/dynamips/c1700-sy-mz.122-15.T17.image-160.ghost 
+May 11 04:53:26.982 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 04:53:26.983 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 04:53:26.983 HYPERVISOR: exec_cmd: vm resume R7 
+May 11 04:55:43.834 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 04:55:43.836 HYPERVISOR: exec_cmd: vm suspend R7 
+May 11 13:14:10.641 HYPERVISOR: exec_cmd: vm set_ghost_status R7 2 
+May 11 13:14:10.649 HYPERVISOR: exec_cmd: vm set_ghost_file R7 /Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/bsuirLabs/term6/АКСиС/АКСиС, ЛР № 4/project-files/dynamips/c1700-sy-mz.122-15.T17.image-160.ghost 
+May 11 13:14:10.650 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 13:14:10.651 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 13:14:10.651 HYPERVISOR: exec_cmd: vm resume R7 
+May 11 14:33:16.986 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 14:33:16.994 HYPERVISOR: exec_cmd: vm suspend R7 
+May 11 23:02:06.791 HYPERVISOR: exec_cmd: vm set_ghost_status R7 2 
+May 11 23:02:06.798 HYPERVISOR: exec_cmd: vm set_ghost_file R7 /Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/bsuirLabs/term6/АКСиС/АКСиС, ЛР № 4/project-files/dynamips/c1700-sy-mz.122-15.T17.image-160.ghost 
+May 11 23:02:06.799 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 23:02:06.801 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 23:02:06.802 HYPERVISOR: exec_cmd: vm resume R7 
+May 11 23:06:58.390 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 23:06:58.390 HYPERVISOR: exec_cmd: vm stop R7 
+May 11 23:06:58.489 GHOST: unloaded ghost image /Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/bsuirLabs/term6/АКСиС/АКСиС, ЛР № 4/project-files/dynamips/c1700-sy-mz.122-15.T17.image-160.ghost (fd=16) at addr=0x10e102000 (size=0xa000000)
+May 11 23:06:58.612 VM: VM R7 shutdown.
+May 11 23:06:58.625 HYPERVISOR: exec_cmd: vm extract_config R7 
+May 11 23:07:04.096 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 23:07:04.096 HYPERVISOR: exec_cmd: vm extract_config R7 
+May 11 23:07:04.357 HYPERVISOR: exec_cmd: vm set_ghost_status R7 2 
+May 11 23:07:04.358 HYPERVISOR: exec_cmd: vm set_ghost_file R7 /Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/bsuirLabs/term6/АКСиС/АКСиС, ЛР № 4/project-files/dynamips/c1700-sy-mz.122-15.T17.image-160.ghost 
+May 11 23:07:04.359 HYPERVISOR: exec_cmd: vm get_status R7 
+May 11 23:07:04.360 HYPERVISOR: exec_cmd: vm set_config R7 configs/i7_startup-config.cfg 
+May 11 23:07:04.360 HYPERVISOR: exec_cmd: vm start R7 
+May 11 23:07:04.362 GHOST: loaded ghost image /Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/bsuirLabs/term6/АКСиС/АКСиС, ЛР № 4/project-files/dynamips/c1700-sy-mz.122-15.T17.image-160.ghost (fd=16) at addr=0x10e102000 (size=0xa000000)
+May 11 23:07:04.362 GHOST: loaded image /Users/andrejhurynovic/Library/Mobile Documents/com~apple~CloudDocs/bsuirLabs/term6/АКСиС/АКСиС, ЛР № 4/project-files/dynamips/c1700-sy-mz.122-15.T17.image-160.ghost successfully.
