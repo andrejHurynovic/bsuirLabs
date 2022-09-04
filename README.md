@@ -1,5 +1,15 @@
 # Вычислительные машины системы и сети (ВМСиС)
 
+### [Седьмой семестр](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7)
+- [АОКС](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/) (Глецевич И.И.)
+- [АОКС, КП](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/АОКС%2C%20КП) (Глецевич И.И.)
+- [АПВМиС](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/АПВМиС) (Байрак С.А. / Тарасюк И.С.)
+- [БД](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/БД) (Поденок Л.П.)
+- [Мод](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/Мод) (Герман Ю.О.)
+- [МПСиС](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/МПСиС) (Селезнёв И.Л. / Богдан Е.В.)
+- [СПОЛКС](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/СПОЛКС) (Смирнов Ю.В. / Глоба А.А)
+- [ЦОСиИ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/ЦОСиИ) (Перцев Д.В. / Дулько П.А.)
+
 ### [Шестой семестр](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6)
 - [АВП](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/АВП) (Перцев Д.Ю.)
 - [АКСиС](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/АКСиС) (Глецевич И.И. / Марцинкевич В.А.)
