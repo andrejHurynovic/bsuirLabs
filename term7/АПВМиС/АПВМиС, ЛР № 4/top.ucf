@@ -1,0 +1,30 @@
+net ledsmain<0>			loc = m26 | iostandard = lvcmos33;
+net ledsmain<1>			loc = t24 | iostandard = lvcmos33;
+net ledsmain<2>			loc = t25 | iostandard = lvcmos33;
+net ledsmain<3>			loc = r26 | iostandard = lvcmos33;
+
+net ledsboard<0> 		loc = f25 | iostandard = lvcmos25;
+net ledsboard<1> 		loc = g25 | iostandard = lvcmos25;
+net ledsboard<2> 		loc = g26 | iostandard = lvcmos25;
+net ledsboard<3> 		loc = h26 | iostandard = lvcmos25;
+
+net pushbuttons<0> 		loc = p6  | iostandard = sstl15;
+net pushbuttons<1> 		loc = r5  | iostandard = sstl15;
+net pushbuttons<2> 		loc = u6  | iostandard = sstl15;
+net pushbuttons<3> 		loc = u5  | iostandard = sstl15;
+net pushbuttons<4> 		loc = t5  | iostandard = lvcmos25;
+
+net dipswitch<0>		loc = r8  | iostandard = sstl15;
+net dipswitch<1>		loc = p8  | iostandard = sstl15;
+net dipswitch<2>		loc = r7  | iostandard = sstl15;
+net dipswitch<3>		loc = r6  | iostandard = sstl15;
+
+net sysclk_p 			loc = r3  | iostandard = lvds_25;
+net sysclk_n 			loc = p3  | iostandard = lvds_25;
+
+net rotarysw<0> 		loc = n21 | iostandard = lvcmos33;
+net rotarysw<1> 		loc = n22 | iostandard = lvcmos33;
+net rotarysw<2> 		loc = p20 | iostandard = lvcmos33;
+
+net uart_tx 			loc = t19 | iostandard = lvcmos18;
+net uart_rx 			loc = u19 | iostandard = lvcmos18;
