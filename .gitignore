@@ -13,3 +13,79 @@ term6/Социология/Темы
 Тестирование программного обеспечения. Базовый курс.pdf
 Договор о прохождении производственной практики.doc
 term7/МПСиС/Datasheets
+
+#Vivado
+
+#########################################################################################
+##  Project    : Collect of various scripts for working with EDA-tools (ASIC/FPGA/etc) ##
+##  Link       : https://github.com/iDoka/eda-scripts                                  ##
+##  Description: .gitignore                                                            ##
+##  Usage      : just rename or add contain to .gitignore                              ##
+##  License    : MIT                                                                   ##
+#########################################################################################
+
+## log files
+*.log
+*.jou
+*.rpt
+*.vdi
+
+## bitstream
+*.bit
+*.bin
+*.mcs
+*.svf
+*.image
+
+## netlist
+*.edf
+*.edif
+*.vn
+*.vm
+
+## SDF
+*.sdf
+
+## sim dump
+*.vcd
+*.saif
+*.tcf
+*.wdb
+
+## others
+unisims
+
+## C-files
+*.elf
+*.a
+*.sa
+*.so
+*.lib
+
+## dirs
+vivado.cache/
+vivado.hw/
+vivado.ip_user_files/
+vivado.runs/
+vivado.sim/
+
+###### for Xilinx Vivado|ISE
+.Xil/
+.cache/
+fsm_encoding.os
+tab_*/
+webtalk.*
+vivado_pid*.str
+hs_err_pid*
+xelab.*
+xsim.*
+xvlog.*
+*.cache
+*.sim
+*.runs
+*.hw
+*.backup.*
+*.debug
+
+## checkpoint files
+*.dcp
