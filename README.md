@@ -16,7 +16,7 @@
 - [ОБиПвИТ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/ОБиПвИТ) (Ермакова Е.В. / Шушкевич А.Г.)
 - [ПрактПроизТехн](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/ПрактПроизТехн) (Одинец Д.Н.)
 - [СА](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/СА) (Никульшин Б.В. / Байдун Д.Р.)
-- [CиФОЭВМ, КП](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/CиФОЭВ%2C%20КП) (Дмитриев А.С.)
+- [CиФОЭВМ, КП](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/СиФОЭВМ%2C%20КП) (Дмитриев А.С.)
 - [Социология](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/Социология) (Качалов И.Л.)
 - [ТРиТПО](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/ТРиТПО) (Шевчук О.Г. / Полуян Т.В.)
 - [ЦОСиИ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/ЦОСиИ) (Перцев Д.Ю.)
