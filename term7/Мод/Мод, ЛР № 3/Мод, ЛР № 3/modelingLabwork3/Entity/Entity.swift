@@ -8,21 +8,23 @@
 import Foundation
 
 class Entity {
-    var transitionsProbabilities: [Double]
-    var probabilitiesRanges: [Range<Double>] = []
+    var transitionsProbabilities: [Int]
+    var probabilitiesRanges: [ClosedRange<Int>] = []
     var hitsCounter: Int = 0
     
-    init(transitionsProbabilities: [Double]) {
+    init(transitionsProbabilities: [Int]) {
         self.transitionsProbabilities = transitionsProbabilities
         
-        var currentProbability = 0.0
+        var currentProbability = 0
         for probability in transitionsProbabilities {
-            probabilitiesRanges.append(currentProbability..<(probability + currentProbability))
+            //Ranges in form []
+            probabilitiesRanges.append(currentProbability...(probability + currentProbability))
             currentProbability += probability
         }
     }
     
-    func next(probability: Double) -> Int {
+    ///Finds next state from probability
+    func next(probability: Int) -> Int {
         for index in probabilitiesRanges.indices {
             if probabilitiesRanges[index].contains(probability) {
                 return index
@@ -31,14 +33,14 @@ class Entity {
         return probabilitiesRanges.count - 1
     }
     
+    func isAbsorbing(stateNumber: Int) -> Bool {
+        return transitionsProbabilities[stateNumber] == 100
+    }
+    
+    //MARK: Hits
     func hit() {
         hitsCounter += 1
     }
-    
-    func isAbsorbing(stateNumber: Int) -> Bool {
-        return transitionsProbabilities[stateNumber] == 1.0
-    }
-    
     func cleanHitsCounter() {
         self.hitsCounter = 0
     }

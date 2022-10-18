@@ -20,14 +20,13 @@ class Entities {
     }
     
     func calculateStableState(from intArray: [Int]) -> [(Int, Double)] {
-        let randomDoubles = intArray.map { (Double($0) / 100) }
+        let randomDoubles = intArray
         
         for probability in randomDoubles {
             currentState = currentEntity.next(probability: probability)
-            print(currentState)
             entities[currentState].hit()
         }
-                
+        
         return entities.map {($0.hitsCounter, (Double($0.hitsCounter) / Double(randomDoubles.count)))}
     }
     
@@ -45,7 +44,7 @@ class Entities {
     }
     
     func calculateAbsorbingStateSteps(from intArray: [Int]) -> [Double] {
-        let randomDoubles = intArray.map { (Double($0) / 100) }
+        let randomDoubles = intArray
         
         var hitsBeforeAbsorbingState: [Int: [Int]] = [:]
         
@@ -58,7 +57,7 @@ class Entities {
                 currentState = index
                 repeat {
                     let nextEntityIndex = currentEntity.next(probability: localRandomDoubles.removeFirst())
-//                    entities[nextEntityIndex].hit()
+                    currentEntity.hit()
                     if absorbingEntitiesIndexes.contains(nextEntityIndex) {
                         let hits = entities.map { $0.hitsCounter }.reduce(0, +)
                         hitsBeforeAbsorbingState[index]?.append(hits)

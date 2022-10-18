@@ -69,7 +69,7 @@ class ProbabilityMatrixViewModel: ObservableObject {
         var entities: [Entity] = []
         
         for probabilities in probabilitiesArray {
-            entities.append(Entity(transitionsProbabilities: probabilities.map( { Double($0)! } )))
+            entities.append(Entity(transitionsProbabilities: probabilities.map( { Int(Double($0)! * 100) } )))
         }
         
         self.entities = Entities(entities: entities, initialState: initialState)
