@@ -5,4 +5,3 @@
 ### [Лабараторная работа № 3](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/БД/БД%2C%20ЛР%20№%203)
 ### [Лабараторная работа № 4](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/БД/БД%2C%20ЛР%20№%204)
 ### [Лабараторная работа № 5](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/БД/БД%2C%20ЛР%20№%205)
-### [Лабараторная работа № 6](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/БД/БД%2C%20ЛР%20№%206)
