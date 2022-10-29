@@ -1,7 +1,7 @@
 # Вычислительные машины системы и сети (ВМСиС)
 
 ### [Седьмой семестр](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7)
-- [АОКС](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/) (Глецевич И.И.)
+- [АОКС](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/АОКС) (Глецевич И.И.)
 - [АОКС, КП](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/АОКС%2C%20КП) (Глецевич И.И.)
 - [АПВМиС](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/АПВМиС) (Байрак С.А. / Тарасюк И.С.)
 - [БД](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/БД) (Поденок Л.П.)
