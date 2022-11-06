@@ -17,7 +17,11 @@ extension Array<Double> {
 
 
 func calculateIncomeTime(_ seed: Double) -> Double {
-    return log(2 * seed) + 2
+    if Bool.random() {
+        return log(2 * seed) + 2
+    } else {
+        return -log(-2 * seed + 2) + 2
+    }
 }
 
 func calculateProcessingTime(_ seed: Double) -> Double {
