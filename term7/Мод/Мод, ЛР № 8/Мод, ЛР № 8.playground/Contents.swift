@@ -213,7 +213,7 @@ print("Probability of random value greater then given value \(greaterThenValuePr
 ///•    выполнить одно испытание алгоритма, используя случайные числа из учебного пособия (приложение 1).
 ///•    разработать имитационную модель на любом языке для решения задачи.
 
-///2.3.1 Первая часть
+//MARK: Задание № 3-1, вариант № 1
 ///Предприятие выпускает комплекты инструментов по заказам. Количество инструментов в комплекте – от 3 до 6. Инструменты могут быть стандартными или высокоточными; комплект может содержать стандартные и высокоточные инструменты в любой комбинации. Время изготовления одного стандартного инструмента составляет от 30 мин до одного часа, высокоточного – от 40 мин до двух часов. Время испытания инструмента – экспоненциальная случайная величина со средним значением 10 мин для стандартных инструментов, 15 мин – для высокоточных.
 ///Найти:
 ///а) среднее время изготовления и испытания комплекта;
@@ -293,7 +293,7 @@ calculateToolboxes()
 ///Probability of only precise instruments in toolbox: 0.02893
 ///Probability of 1440 minutes and more of assembly and testing toolbox: 0.0
 
-///2.3.2 Вторая часть
+//MARK: Задание № 3-2, вариант № 1
 ///В мастерской выполняется проверка и ремонт некоторых приборов. Прибор состоит из пяти схем. Вероятность неисправности схемы - 0,1. Работа с прибором включает следующие операции:
 ///•    проверка: от 2 до 5 мин на каждую схему;
 ///•    замена неисправных схем: время замены одной схемы – гауссовская случайная величина со средним значением 5 мин и стандартным отклонением 0,5 мин;
@@ -322,6 +322,7 @@ class Circuit {
 class Device {
     var circuits: [Circuit] = (1...5).map { _ in Circuit() }
     var configurationTime: Double
+   
     var allTime: Double
     var defectivePercent: Double
     
@@ -355,4 +356,90 @@ calculateDevices()
 ///100 000 devices
 ///Average devices processing time: 21.28127286809263
 ///At least one defective circuit probability: 0.40842
-///Average defective circuit percent 0.09961799999999575
+///Average defective circuit percent 0.0996179999999957
+
+//MARK: Задание № 3-1, вариант № 2
+///В мастерской выполняется проверка и ремонт приборов двух типов: A и B. Среди приборов, поступающих в мастерскую, приборы типа A составляют 80%, типа B – 20%. Прибор A состоит из четырех деталей, прибор B – из семи. Длительность проверки одной детали – от 5 до 10 минут. Каждый прибор может содержать любое количество неисправных деталей, т.е. в приборе A их количество может составлять от 0 до 4, в приборе B – от 0 до 7. Замена неисправной детали занимает от 10 до 15 минут. Кроме того, если прибор содержал хотя бы одну неисправную деталь, то требуется его наладка. Длительность наладки–экспоненциальная случайная величина со средним значением 5 минут для приборов A и 8 минут для приборов B.
+///Найти:
+///а) среднее время работы с прибором;
+///б) долю деталей, требующих замены;
+///в) вероятность того, что в приборе не будет неисправных деталей.
+
+enum DifferentDeviceType: CaseIterable {
+    case A
+    case B
+    
+    init() {
+        if (0.0...0.8).contains(Double.random(in: 0...1)) {
+            self = .A
+        } else {
+            self = .B
+        }
+    }
+}
+
+class DifferentCircuit {
+    var isDefective = Bool.random()
+    var checkTime: Double = Double.random(in: 5.0...10.0)
+    var replaceTime: Double
+
+    init() {
+        if self.isDefective {
+            self.replaceTime = Double.random(in: 10.0...15.0)
+        } else {
+            self.replaceTime = 0
+        }
+    }
+}
+
+class DifferentDevice {
+    var type: DifferentDeviceType
+    var circuits: [DifferentCircuit]
+    var configurationTime: Double
+    
+    var allTime: Double
+    var defectivePercent: Double
+    
+    init() {
+        self.type = DifferentDeviceType()
+        switch self.type {
+        case .A:
+            self.circuits = (1...4).map { _ in DifferentCircuit() }
+        case .B:
+            self.circuits = (1...7).map { _ in DifferentCircuit() }
+        }
+        
+        if let _ = circuits.first(where: { $0.isDefective }) {
+            switch self.type {
+            case .A:
+                self.configurationTime = -5 * log(Double.random(in: 0.0...1.0))
+            case .B:
+                self.configurationTime = -8 * log(Double.random(in: 0.0...1.0))
+            }
+        } else {
+            self.configurationTime = 0
+        }
+        
+        self.allTime = circuits.map { $0.checkTime + $0.replaceTime }.reduce(0.0, +) + self.configurationTime
+        self.defectivePercent = Double(circuits.filter( { $0.isDefective } ).count) / Double(circuits.count)
+    }
+}
+
+func calculateDifferentDevices() {
+    print("\nPart 3.3:")
+    let devices = (1...100000).map { _ in DifferentDevice() }
+    
+    let averageTime = devices.map { $0.allTime }.average()
+    print("Average devices processing time: \(averageTime)")
+    
+    let averageDefectiveCircuitsPercent = devices.map { $0.defectivePercent }.average()
+    print("Average defective circuit percent \(averageDefectiveCircuitsPercent)")
+    
+    let noDefectiveCircuitsProbability = 1 - Double(devices.filter { $0.circuits.contains { $0.isDefective == true } }.count) / Double(devices.count)
+    print("No defective circuit probability: \(noDefectiveCircuitsProbability)")
+
+}
+calculateDifferentDevices()
+///Average devices processing time: 68.5918481543859
+///Average defective circuit percent 0.5001621428571392
+///No defective circuit probability: 0.05235000000000001
