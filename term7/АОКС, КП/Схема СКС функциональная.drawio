@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2022-12-18T21:21:39.830Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.6.2 Chrome/106.0.5249.199 Electron/21.3.3 Safari/537.36" etag="mX6ddVawY6IfNY6X3YAR" compressed="false" version="20.6.2" type="device">
+<mxfile host="Electron" modified="2022-12-18T22:40:15.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.6.2 Chrome/106.0.5249.199 Electron/21.3.3 Safari/537.36" etag="MfylOSW4RvYB-npN8gl1" compressed="false" version="20.6.2" type="device">
   <diagram name="Страница-1" id="Страница-1">
-    <mxGraphModel dx="1892" dy="1220" grid="1" gridSize="9.8425" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1577" dy="1017" grid="1" gridSize="9.8425" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="IKqkC-VqAS8bh-hIaz8--111" value="Другое" parent="0" />
@@ -887,11 +887,11 @@
         <mxCell id="oEqlLLCMxWZDDx5f_Mu--8" value="Aruba CX 6000 48G 4SFP (R8N86A)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
           <mxGeometry x="846.46" y="300" width="137.79" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="oEqlLLCMxWZDDx5f_Mu--9" value="PrinterModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
-          <mxGeometry x="878.37" y="222.52000000000004" width="80" height="20" as="geometry" />
+        <mxCell id="oEqlLLCMxWZDDx5f_Mu--9" value="Pantum P3010D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
+          <mxGeometry x="856.3" y="222.52" width="118.11" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="oEqlLLCMxWZDDx5f_Mu--10" value="PrinterModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
-          <mxGeometry x="1358.37" y="219.52000000000004" width="80" height="23" as="geometry" />
+        <mxCell id="oEqlLLCMxWZDDx5f_Mu--10" value="HP Ink Tank 315" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
+          <mxGeometry x="1338.58" y="219.52" width="118.11" height="23" as="geometry" />
         </mxCell>
         <mxCell id="oEqlLLCMxWZDDx5f_Mu--11" value="Aruba AP-303" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
           <mxGeometry x="1338.58" y="300" width="118.11" height="24.8" as="geometry" />
@@ -965,11 +965,11 @@
         <mxCell id="Ln7XQUvNqYD8yCebmWpK-88" value="Aruba CX 6000 48G 4SFP (R8N86A)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
           <mxGeometry x="846.46" y="690" width="137.8" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="Ln7XQUvNqYD8yCebmWpK-89" value="PrinterModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
-          <mxGeometry x="878.37" y="612.53" width="80" height="20" as="geometry" />
+        <mxCell id="Ln7XQUvNqYD8yCebmWpK-89" value="Pantum P3010D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
+          <mxGeometry x="856.3" y="612.53" width="118.11" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ln7XQUvNqYD8yCebmWpK-90" value="PrinterModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
-          <mxGeometry x="1358.37" y="609.53" width="80" height="23" as="geometry" />
+        <mxCell id="Ln7XQUvNqYD8yCebmWpK-90" value="HP Ink Tank 315" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
+          <mxGeometry x="1338.58" y="609.53" width="118.11" height="23" as="geometry" />
         </mxCell>
         <mxCell id="Ln7XQUvNqYD8yCebmWpK-91" value="Aruba AP-303" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
           <mxGeometry x="1338.58" y="690" width="118.11" height="20" as="geometry" />
@@ -1031,11 +1031,11 @@
         <mxCell id="Ln7XQUvNqYD8yCebmWpK-141" value="Aruba CX 6000 48G 4SFP (R8N86A)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
           <mxGeometry x="846.46" y="1080" width="137.8" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="Ln7XQUvNqYD8yCebmWpK-142" value="PrinterModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
-          <mxGeometry x="878.37" y="1002.5200000000002" width="80" height="20" as="geometry" />
+        <mxCell id="Ln7XQUvNqYD8yCebmWpK-142" value="Pantum P3010D" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
+          <mxGeometry x="866.14" y="1002.52" width="108.26" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ln7XQUvNqYD8yCebmWpK-143" value="PrinterModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
-          <mxGeometry x="1358.37" y="999.5200000000001" width="80" height="23" as="geometry" />
+        <mxCell id="Ln7XQUvNqYD8yCebmWpK-143" value="HP Ink Tank 315" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
+          <mxGeometry x="1338.58" y="999.52" width="118.11" height="23" as="geometry" />
         </mxCell>
         <mxCell id="Ln7XQUvNqYD8yCebmWpK-144" value="Aruba AP-303" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
           <mxGeometry x="1338.58" y="1080" width="118.11" height="20" as="geometry" />
