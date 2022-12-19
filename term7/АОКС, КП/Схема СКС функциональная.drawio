@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2022-12-18T22:40:15.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.6.2 Chrome/106.0.5249.199 Electron/21.3.3 Safari/537.36" etag="MfylOSW4RvYB-npN8gl1" compressed="false" version="20.6.2" type="device">
+<mxfile host="Electron" modified="2022-12-19T01:18:47.866Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.6.2 Chrome/106.0.5249.199 Electron/21.3.3 Safari/537.36" etag="5E_42lk2x2gyJ6_s58T-" compressed="false" version="20.6.2" type="device">
   <diagram name="Страница-1" id="Страница-1">
-    <mxGraphModel dx="1577" dy="1017" grid="1" gridSize="9.8425" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1720" dy="1109" grid="1" gridSize="9.8425" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="IKqkC-VqAS8bh-hIaz8--111" value="Другое" parent="0" />
@@ -46,7 +46,7 @@
         <mxCell id="0MDFwOMSwQNmZCORZw81-239" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;GE/48&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=11;fontStyle=2" parent="9BwAd8rwPp-84XcoNZzX-187" vertex="1">
           <mxGeometry x="799.37" y="260" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="0MDFwOMSwQNmZCORZw81-232" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;GE/0&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=11;fontStyle=2" parent="9BwAd8rwPp-84XcoNZzX-187" vertex="1">
+        <mxCell id="0MDFwOMSwQNmZCORZw81-232" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;FE/0&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=11;fontStyle=2" parent="9BwAd8rwPp-84XcoNZzX-187" vertex="1">
           <mxGeometry x="1959.37" y="980" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Ox5Po6O9_LgIOVLj1sJk-7" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;GE/1&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=11;fontStyle=2" parent="9BwAd8rwPp-84XcoNZzX-187" vertex="1">
@@ -896,7 +896,7 @@
         <mxCell id="oEqlLLCMxWZDDx5f_Mu--11" value="Aruba AP-303" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
           <mxGeometry x="1338.58" y="300" width="118.11" height="24.8" as="geometry" />
         </mxCell>
-        <mxCell id="oEqlLLCMxWZDDx5f_Mu--149" value="ServerModel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
+        <mxCell id="oEqlLLCMxWZDDx5f_Mu--149" value="Gen10 Plus E-2224 S100i 4LFF-NHP 180W External PS Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
           <mxGeometry x="1679.37" y="1020" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="oEqlLLCMxWZDDx5f_Mu--150" value="HPE MSR954 1GbE SFP 2GbE-WAN 4GbE-LAN CWv7&lt;br&gt;(JH296A)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;fillStyle=auto;strokeWidth=2;fontFamily=Arial;fontSize=14;fontStyle=2;container=0;" parent="9BwAd8rwPp-84XcoNZzX-201" vertex="1">
