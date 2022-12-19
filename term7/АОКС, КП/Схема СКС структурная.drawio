@@ -1,14 +1,11 @@
-<mxfile host="Electron" modified="2022-12-18T16:40:50.750Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.6.2 Chrome/106.0.5249.199 Electron/21.3.3 Safari/537.36" etag="O8NHMKZTXpti2Qk7bcSA" compressed="false" version="20.6.2" type="device">
+<mxfile host="Electron" modified="2022-12-19T09:53:39.816Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.6.2 Chrome/106.0.5249.199 Electron/21.3.3 Safari/537.36" etag="7eBrGoCrSn4VydYQtO2S" compressed="false" version="20.6.2" type="device">
   <diagram name="Страница-1" id="Страница-1">
-    <mxGraphModel dx="1720" dy="1109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2365" dy="1525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="tpW0L4eKJtAbM24Pp-hq-4" value="Границы" parent="0" />
         <mxCell id="z5uXpmlsEeFLw_u2zRaJ-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontStyle=2;fontFamily=Arial;strokeColor=#000000;dashed=1;comic=0;enumerate=0;backgroundOutline=0;metaEdit=0;fixDash=0;snapToPoint=0;labelBackgroundColor=#ffffff;endArrow=none;fontSize=11;dashPattern=12.00 4.00 4.00 4.00;startArrow=none;startSize=5;endSize=5;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;" parent="tpW0L4eKJtAbM24Pp-hq-4" vertex="1">
-          <mxGeometry x="880" y="560" width="700" height="340" as="geometry" />
-        </mxCell>
-        <mxCell id="z5uXpmlsEeFLw_u2zRaJ-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontStyle=2;fontFamily=Arial;strokeColor=#000000;dashed=1;comic=0;enumerate=0;backgroundOutline=0;metaEdit=0;fixDash=0;snapToPoint=0;labelBackgroundColor=#ffffff;endArrow=none;fontSize=11;dashPattern=12.00 4.00 4.00 4.00;startArrow=none;startSize=5;endSize=5;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;" parent="tpW0L4eKJtAbM24Pp-hq-4" vertex="1">
-          <mxGeometry x="880" y="100" width="700" height="340" as="geometry" />
+          <mxGeometry x="880" y="100" width="700" height="800" as="geometry" />
         </mxCell>
         <mxCell id="tL40lFmTbDm4_pI7Nzm5-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontStyle=2;fontFamily=Arial;strokeColor=#000000;dashed=1;comic=0;enumerate=0;backgroundOutline=0;metaEdit=0;fixDash=0;snapToPoint=0;labelBackgroundColor=#ffffff;endArrow=none;fontSize=11;dashPattern=12.00 4.00 4.00 4.00;startArrow=none;startSize=5;endSize=5;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;" parent="tpW0L4eKJtAbM24Pp-hq-4" vertex="1">
           <mxGeometry x="160" y="100" width="700" height="800" as="geometry" />
@@ -306,13 +303,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tpW0L4eKJtAbM24Pp-hq-5" value="Надписи" parent="0" />
-        <mxCell id="z5uXpmlsEeFLw_u2zRaJ-23" value="Второй этаж" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontFamily=Arial;fontStyle=2" parent="tpW0L4eKJtAbM24Pp-hq-5" vertex="1">
-          <mxGeometry x="1389.88" y="579.55" width="170.12" height="30" as="geometry" />
+        <mxCell id="z5uXpmlsEeFLw_u2zRaJ-50" value="Четвёртый этаж" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontFamily=Arial;fontStyle=2" parent="tpW0L4eKJtAbM24Pp-hq-5" vertex="1">
+          <mxGeometry x="1360" y="300" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="z5uXpmlsEeFLw_u2zRaJ-50" value="Третий&amp;nbsp;этаж" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontFamily=Arial;fontStyle=2" parent="tpW0L4eKJtAbM24Pp-hq-5" vertex="1">
-          <mxGeometry x="1391.88" y="390" width="168.12" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z5uXpmlsEeFLw_u2zRaJ-51" value="Первый этаж" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontFamily=Arial;fontStyle=2" parent="tpW0L4eKJtAbM24Pp-hq-5" vertex="1">
+        <mxCell id="z5uXpmlsEeFLw_u2zRaJ-51" value="Третий этаж" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontFamily=Arial;fontStyle=2" parent="tpW0L4eKJtAbM24Pp-hq-5" vertex="1">
           <mxGeometry x="180" y="120" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tpW0L4eKJtAbM24Pp-hq-7" value="Связи" parent="0" />
