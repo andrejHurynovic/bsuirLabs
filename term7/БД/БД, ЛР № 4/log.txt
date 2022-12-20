@@ -1,0 +1,205 @@
+-- 1.Имена, фамилии, отчества, официальные названия стран гражданства и адреса регистрации всех физических лиц с сортировкой в порядке возрастания по ISO коду и фамилии.
+SELECT individual.first_name,  individual.middle_name, individual.last_name, citizenship.official_name, individual.registration_address 
+FROM individual 
+    JOIN citizenship ON citizenship.id = individual.citizenship_id 
+    ORDER BY citizenship.id, individual.last_name;
+ first_name | middle_name |    last_name    |      official_name       |             registration_address             
+------------+-------------+-----------------+--------------------------+----------------------------------------------
+ Andrej     | Viktaravič  | Hurynovič       | Belarus                  | 220088, Minsk, street
+ Katotoka   | Jojo        | Jeep            | Switzerland              | Püntstrasse 22, 8588 Zihlschlacht-Sitterdorf
+ Júlía      |             | Ingveldardóttir | New Zealand              | De Romanul street, 12, Polaza
+ Among-Us   | Czarnecka   | Tekla           | Poland                   | 12-45CA Fyodr Syslov Street
+ James      | D.          | George          | United States of America | 4742 Bellevue Avenue, Louisville KY 40215
+ Judy       | D.          | Hammond         | United States of America | 55 Armory Street, Quincy MA 02169
+ Jonna      | J.          | Parker          | United States of America | 8779 Windsor St. Fuquay Varina, NC 27526
+ David      | B.          | Rosa            | United States of America | 4216 Winter Lake Drive, Louisville KY 40272
+ Ann        | J.          | Solis           | United States of America | 107 West Canton Circle, Springfield MA 01104
+ Justin     | A.          | Toth            | United States of America | 2069 Cambridge Place. Salisbury, MD 21875
+(10 rows)
+
+
+-- 2.Имена, фамилии, отчества, официальные названия стран гражданства всех физических лиц, не являющихся гражданами Беларуси, с сортировкой в порядке возрастания по ISO коду и фамилии.
+SELECT individual.first_name,  individual.middle_name, individual.last_name, citizenship.official_name 
+FROM individual 
+    JOIN citizenship ON individual.citizenship_id = citizenship.id 
+    WHERE citizenship_id <> 'BY' 
+    ORDER BY citizenship.id, individual.last_name;
+ first_name | middle_name |    last_name    |      official_name       
+------------+-------------+-----------------+--------------------------
+ Katotoka   | Jojo        | Jeep            | Switzerland
+ Júlía      |             | Ingveldardóttir | New Zealand
+ Among-Us   | Czarnecka   | Tekla           | Poland
+ James      | D.          | George          | United States of America
+ Judy       | D.          | Hammond         | United States of America
+ Jonna      | J.          | Parker          | United States of America
+ David      | B.          | Rosa            | United States of America
+ Ann        | J.          | Solis           | United States of America
+ Justin     | A.          | Toth            | United States of America
+(9 rows)
+
+
+-- 3.Имена, фамилии, отчества всех физических лиц, являющихся гражданами США, с сортировкой в порядке возрастания по фамилии.
+SELECT individual.first_name,  individual.middle_name, individual.last_name 
+FROM individual 
+    JOIN citizenship ON individual.citizenship_id = citizenship.id 
+    WHERE citizenship_id = 'US' 
+    ORDER BY individual.last_name;
+ first_name | middle_name | last_name 
+------------+-------------+-----------
+ James      | D.          | George
+ Judy       | D.          | Hammond
+ Jonna      | J.          | Parker
+ David      | B.          | Rosa
+ Ann        | J.          | Solis
+ Justin     | A.          | Toth
+(6 rows)
+
+
+-- 4.УНП, названия и адреса регистрации всех юридических лиц отсортированные в порядке возрастания по названию юридического лица.
+SELECT * FROM entity ORDER BY entity.official_name; 
+    prn    |                                    official_name                                     |                  registration_address                  
+-----------+--------------------------------------------------------------------------------------+--------------------------------------------------------
+ 100361649 | Внешнеэкономическое акционерное общество "Беларусь"                                  | г.Минск,ул.Долгобродская,29
+ 390402520 | Государственное учреждение образования "Средняя школа № 1 г.Сенно имени З.И. Азгура" | Витебская обл.,г.Сенно,ул. Октябрьская, д.82а
+ 191296077 | Иностранное общество с ограниченной ответственностью "Майкрософт Софтвер Бел"        | г.Минск,пр-т Победителей, д.106, оф. 34
+ 193387390 | Общество с ограниченной ответственностью "Прог-дом"                                  | г.Минск,ул. Кальварийская, д.33, корп.11, пом. 3
+ 490635484 | Общество с ограниченной ответственностью "Устал"                                     | г.Минск,пр.Партизанский,19А,пом.2Н(ком.1)
+ 100390875 | Общество с ограниченной ответственностью "ЭМОНГ"                                     | Брестская область, г.Брест, бульвар Космонавтов, 34-1Н
+ 100950138 | Редакция юмористического журнала "Прикол"                                            | г.Минск, улица Приколистов, 419
+ 691887604 | Таварыства з абмежаванай адказнасцю "АС-Керамікс"                                    | Брестская область, г.Лида, улица Шушкевича, 69-34
+ 691700191 | Таварыства з абмежаванай адказнасцю "САС Індастрыял"                                 | г.Минск, улица Козлова, 21
+ 190649362 | Частное учреждение образования "Средняя школа "Альтасфера"                           | г.Минск,ул. Маяковского, д.129А, каб. 105
+(10 rows)
+
+
+-- 5.УНП, названия и адреса регистрации всех юридических лиц с адресом регистрации в городе Минске, отсортированные в порядке возрастания по названию юридического лица.
+SELECT * 
+FROM entity 
+    WHERE entity.registration_address LIKE 'г.Минск%' 
+    ORDER BY entity.official_name;
+    prn    |                                 official_name                                 |               registration_address               
+-----------+-------------------------------------------------------------------------------+--------------------------------------------------
+ 100361649 | Внешнеэкономическое акционерное общество "Беларусь"                           | г.Минск,ул.Долгобродская,29
+ 191296077 | Иностранное общество с ограниченной ответственностью "Майкрософт Софтвер Бел" | г.Минск,пр-т Победителей, д.106, оф. 34
+ 193387390 | Общество с ограниченной ответственностью "Прог-дом"                           | г.Минск,ул. Кальварийская, д.33, корп.11, пом. 3
+ 490635484 | Общество с ограниченной ответственностью "Устал"                              | г.Минск,пр.Партизанский,19А,пом.2Н(ком.1)
+ 100950138 | Редакция юмористического журнала "Прикол"                                     | г.Минск, улица Приколистов, 419
+ 691700191 | Таварыства з абмежаванай адказнасцю "САС Індастрыял"                          | г.Минск, улица Козлова, 21
+ 190649362 | Частное учреждение образования "Средняя школа "Альтасфера"                    | г.Минск,ул. Маяковского, д.129А, каб. 105
+(7 rows)
+
+
+-- 6.УНП, названия адреса регистрации всех юридических лиц и номера счетов, отсортированные в порядке возрастания по названию юридического лица.
+SELECT entity.prn, entity.official_name, entity.registration_address, account.iban 
+FROM entity 
+    JOIN account ON account.entity_PRN = entity.prn 
+    ORDER BY entity.official_name; 
+    prn    |                                    official_name                                     |                  registration_address                  |             iban             
+-----------+--------------------------------------------------------------------------------------+--------------------------------------------------------+------------------------------
+ 100361649 | Внешнеэкономическое акционерное общество "Беларусь"                                  | г.Минск,ул.Долгобродская,29                            | BY34AMNG1011204US10070190001
+ 390402520 | Государственное учреждение образования "Средняя школа № 1 г.Сенно имени З.И. Азгура" | Витебская обл.,г.Сенно,ул. Октябрьская, д.82а          | BY34AMNG1011204US10020190001
+ 191296077 | Иностранное общество с ограниченной ответственностью "Майкрософт Софтвер Бел"        | г.Минск,пр-т Победителей, д.106, оф. 34                | BY34AMNG1011204US10030190001
+ 193387390 | Общество с ограниченной ответственностью "Прог-дом"                                  | г.Минск,ул. Кальварийская, д.33, корп.11, пом. 3       | BY34AMNG1011204US10040190001
+ 490635484 | Общество с ограниченной ответственностью "Устал"                                     | г.Минск,пр.Партизанский,19А,пом.2Н(ком.1)              | BY34AMNG1011204US10060190001
+ 100390875 | Общество с ограниченной ответственностью "ЭМОНГ"                                     | Брестская область, г.Брест, бульвар Космонавтов, 34-1Н | BY34AMNG1011204US10090190001
+ 100950138 | Редакция юмористического журнала "Прикол"                                            | г.Минск, улица Приколистов, 419                        | BY34AMNG1011204US10100190001
+ 691887604 | Таварыства з абмежаванай адказнасцю "АС-Керамікс"                                    | Брестская область, г.Лида, улица Шушкевича, 69-34      | BY34AMNG1011204US10080190001
+ 691700191 | Таварыства з абмежаванай адказнасцю "САС Індастрыял"                                 | г.Минск, улица Козлова, 21                             | BY34AMNG1011204US10110190001
+ 190649362 | Частное учреждение образования "Средняя школа "Альтасфера"                           | г.Минск,ул. Маяковского, д.129А, каб. 105              | BY34AMNG1011204US10050190001
+(10 rows)
+
+
+-- 7.Идентификатор, название типа, дата, счёт получателя, сумма и валюта транзакции по номеру счёта.
+SELECT transaction.id, transaction_type.transaction_type_name, transaction.transaction_date, transaction.recipients_account, transaction.amount, transaction.currency_code 
+FROM transaction 
+    JOIN transaction_type ON transaction_type.code = transaction.transaction_type_code 
+    WHERE transaction.account_iban = 'BY34AMNG1011104US20100190001';
+ id | transaction_type_name |  transaction_date   |      recipients_account      |   amount   | currency_code 
+----+-----------------------+---------------------+------------------------------+------------+---------------
+  9 | transfer              | 2022-12-01 13:00:00 | BY34AMAG1011104US20112390001 | $13,456.11 | BYN
+ 10 | cash_in               | 2022-12-01 14:00:12 | BY34AMAG1011104US20112390001 |     $42.33 | BYN
+(2 rows)
+
+
+-- 8.Идентификатор, название типа, дата, счёт получателя, сумма и валюта транзакции для всех карт.
+SELECT card.card_number, transaction.id, transaction_type.transaction_type_name, transaction.transaction_date, transaction.recipients_account, transaction.amount, transaction.currency_code 
+FROM card 
+    JOIN transaction ON card.card_number = transaction.card_number 
+    JOIN transaction_type ON transaction_type.code = transaction.transaction_type_code
+    WHERE transaction.card_number IS NOT NULL 
+    ORDER BY card_number;
+   card_number    | id | transaction_type_name |  transaction_date   |      recipients_account      | amount  | currency_code 
+------------------+----+-----------------------+---------------------+------------------------------+---------+---------------
+ 4485371370304942 |  7 | refund                | 2022-12-05 05:01:00 | GB34TIME1011204US10060190001 |  $55.25 | GBP
+ 4485371370304942 |  6 | payment               | 2022-12-05 05:00:00 | GB34TIME1011204US10060190001 |  $55.25 | GBP
+ 4485931003026632 |  3 | cash_out              | 2022-12-02 02:00:23 | GB34TIME1011104US20044390001 | $432.65 | GBP
+ 4532311642576573 |  2 | cash_out              | 2022-12-01 23:59:32 | GB34TIME1011104US20112390001 | $134.32 | USD
+ 4532311642576573 |  1 | cash_in               | 2022-12-01 01:00:00 | GB34TIME1011104US20112390001 | $134.32 | USD
+ 4556073579124428 |  4 | payment               | 2022-12-03 03:00:00 | GB34TIME1011204DS13200190001 | $123.43 | USD
+ 4556941777057592 |  8 | cash_in               | 2022-12-06 06:00:43 | GB34TIME1011204US10020190001 |  $52.25 | BYN
+ 4716899615629021 |  5 | cash_out              | 2022-12-04 04:00:34 | GB34TIME1011204US23080190001 |  $34.34 | GBP
+(8 rows)
+
+
+-- 9.Идентификатор, название типа, дата, счёт получателя, сумма и валюта транзакций определённого типа.
+SELECT transaction.id, transaction_type.transaction_type_name, transaction.transaction_date, transaction.recipients_account, transaction.amount, transaction.currency_code 
+FROM transaction 
+    JOIN transaction_type ON transaction_type.code = transaction.transaction_type_code 
+    WHERE transaction.transaction_type_code = 4; -- Refund
+ id | transaction_type_name |  transaction_date   |      recipients_account      | amount | currency_code 
+----+-----------------------+---------------------+------------------------------+--------+---------------
+  7 | refund                | 2022-12-05 05:01:00 | GB34TIME1011204US10060190001 | $55.25 | GBP
+(1 row)
+
+
+-- 10.Номер карты, окончание срока действия, CVV-код, платёжная система и её класс обслуживания по номеру счёта.
+SELECT card.card_number, to_char(card.expiration_date, 'Month YYYY') AS "expiration_date", card.cvv, card.payment_system, card.service_class
+FROM account_card
+    JOIN card ON card.card_number = account_card.card_number
+    WHERE account_card.account_iban = 'BY34AMNG1011104US20030190001';
+   card_number    | expiration_date | cvv | payment_system | service_class 
+------------------+-----------------+-----+----------------+---------------
+ 4024007166727312 | February  2028  | 546 | MasterCard     | Standart
+ 5345342356643345 | June      2029  | 236 | VISA           | Gold
+(2 rows)
+
+
+-- 11.Номер, окончание срока действия, CVV-код, платёжная система и её класс обслуживания для карт, информация о лимитах у карт у которых есть лимиты.
+SELECT card.card_number, to_char(card.expiration_date, 'Month YYYY') AS "expiration_date", card.cvv, card.payment_system, card.service_class, bank_limit.limit_start_date, bank_limit.limit_end_date, bank_limit.cash_amount, bank_limit.cash_count, bank_limit.non_cash_amount, bank_limit.non_cash_count, bank_limit.maximal_cash_amount, bank_limit.maximal_cash_count, bank_limit.maximal_non_cash_amount, bank_limit.maximal_non_cash_count
+FROM bank_limit
+    JOIN card ON bank_limit.card_number = card.card_number;
+   card_number    | expiration_date | cvv | payment_system | service_class | limit_start_date | limit_end_date | cash_amount | cash_count | non_cash_amount | non_cash_count | maximal_cash_amount | maximal_cash_count | maximal_non_cash_amount | maximal_non_cash_count 
+------------------+-----------------+-----+----------------+---------------+------------------+----------------+-------------+------------+-----------------+----------------+---------------------+--------------------+-------------------------+------------------------
+ 4532781968544548 | August    2028  | 234 | VISA           | Standart      | 2021-01-01       | 2023-01-01     |       $0.00 |          0 |                 |                |      $99,999,999.90 |                999 |                         |                       
+ 4024007166727312 | February  2028  | 546 | MasterCard     | Standart      | 2023-12-16       | 2024-01-01     |      $12.30 |          1 |                 |                |              $12.50 |                 15 |                         |                       
+ 4556941777057592 | June      2028  | 233 | VISA           | Bronze        | 2023-12-16       | 2024-01-01     |      $34.30 |          4 |                 |                |              $14.50 |                 32 |                         |                       
+ 4716899615629021 | August    2027  | 567 | VISA           | Ultra         | 2021-01-01       | 2023-01-01     |  $11,231.32 |         99 |                 |                |      $99,999,999.90 |                999 |                         |                       
+ 4556073579124428 | February  2021  | 453 | VISA           | Standart      | 2023-12-16       | 2024-01-01     |   $1,123.30 |          1 |                 |                |          $13,232.50 |                 15 |                         |                       
+ 4532311642576573 | January   2028  | 323 | MasterCard     | Gold          | 2023-12-16       | 2024-01-01     |      $34.30 |          4 |                 |                |              $14.50 |                 32 |                         |                       
+(6 rows)
+
+
+-- 12.Номер, окончание срока действия, CVV-код, платёжная система и её класс обслуживания для карт, информация о лимитах у конкретной карты.
+SELECT card.card_number, to_char(card.expiration_date, 'Month YYYY') AS "expiration_date", card.cvv, card.payment_system, card.service_class, bank_limit.limit_start_date, bank_limit.limit_end_date, bank_limit.cash_amount, bank_limit.cash_count, bank_limit.non_cash_amount, bank_limit.non_cash_count, bank_limit.maximal_cash_amount, bank_limit.maximal_cash_count, bank_limit.maximal_non_cash_amount, bank_limit.maximal_non_cash_count
+FROM bank_limit
+    JOIN card ON bank_limit.card_number = card.card_number
+    WHERE card.card_number = '4024007166727312';
+   card_number    | expiration_date | cvv | payment_system | service_class | limit_start_date | limit_end_date | cash_amount | cash_count | non_cash_amount | non_cash_count | maximal_cash_amount | maximal_cash_count | maximal_non_cash_amount | maximal_non_cash_count 
+------------------+-----------------+-----+----------------+---------------+------------------+----------------+-------------+------------+-----------------+----------------+---------------------+--------------------+-------------------------+------------------------
+ 4024007166727312 | February  2028  | 546 | MasterCard     | Standart      | 2023-12-16       | 2024-01-01     |      $12.30 |          1 |                 |                |              $12.50 |                 15 |                         |                       
+(1 row)
+
+
+-- 13.Информация о счёте и лимитах у счетов, которые имеют лимиты.
+SELECT card.card_number, to_char(card.expiration_date, 'Month YYYY') AS "expiration_date", card.cvv, card.payment_system, card.service_class, bank_limit.limit_start_date, bank_limit.limit_end_date, bank_limit.cash_amount, bank_limit.cash_count, bank_limit.non_cash_amount, bank_limit.non_cash_count, bank_limit.maximal_cash_amount, bank_limit.maximal_cash_count, bank_limit.maximal_non_cash_amount, bank_limit.maximal_non_cash_count
+FROM bank_limit
+    JOIN card ON bank_limit.card_number = card.card_number;
+   card_number    | expiration_date | cvv | payment_system | service_class | limit_start_date | limit_end_date | cash_amount | cash_count | non_cash_amount | non_cash_count | maximal_cash_amount | maximal_cash_count | maximal_non_cash_amount | maximal_non_cash_count 
+------------------+-----------------+-----+----------------+---------------+------------------+----------------+-------------+------------+-----------------+----------------+---------------------+--------------------+-------------------------+------------------------
+ 4532781968544548 | August    2028  | 234 | VISA           | Standart      | 2021-01-01       | 2023-01-01     |       $0.00 |          0 |                 |                |      $99,999,999.90 |                999 |                         |                       
+ 4024007166727312 | February  2028  | 546 | MasterCard     | Standart      | 2023-12-16       | 2024-01-01     |      $12.30 |          1 |                 |                |              $12.50 |                 15 |                         |                       
+ 4556941777057592 | June      2028  | 233 | VISA           | Bronze        | 2023-12-16       | 2024-01-01     |      $34.30 |          4 |                 |                |              $14.50 |                 32 |                         |                       
+ 4716899615629021 | August    2027  | 567 | VISA           | Ultra         | 2021-01-01       | 2023-01-01     |  $11,231.32 |         99 |                 |                |      $99,999,999.90 |                999 |                         |                       
+ 4556073579124428 | February  2021  | 453 | VISA           | Standart      | 2023-12-16       | 2024-01-01     |   $1,123.30 |          1 |                 |                |          $13,232.50 |                 15 |                         |                       
+ 4532311642576573 | January   2028  | 323 | MasterCard     | Gold          | 2023-12-16       | 2024-01-01     |      $34.30 |          4 |                 |                |              $14.50 |                 32 |                         |                       
+(6 rows)

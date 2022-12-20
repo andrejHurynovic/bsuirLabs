@@ -1,0 +1,319 @@
+bank=# -- 1.Имена, фамилии, отчества, официальные названия стран гражданства и адреса регистрации всех физических лиц с сортировкой в порядке возрастания по ISO коду и фамилии.
+bank=# SELECT individual.first_name,  individual.middle_name, individual.last_name, citizenship.official_name, individual.registration_address 
+bank-# FROM individual 
+bank-#     JOIN citizenship ON citizenship.id = individual.citizenship_id 
+bank-#     ORDER BY citizenship.id, individual.last_name;
+ first_name | middle_name |    last_name    |      official_name       |             registration_address             
+------------+-------------+-----------------+--------------------------+----------------------------------------------
+ Andrej     | Viktaravič  | Hurynovič       | Belarus                  | 220088, Minsk, street
+ Katotoka   | Jojo        | Jeep            | Switzerland              | Püntstrasse 22, 8588 Zihlschlacht-Sitterdorf
+ Júlía      |             | Ingveldardóttir | New Zealand              | De Romanul street, 12, Polaza
+ Among-Us   | Czarnecka   | Tekla           | Poland                   | 12-45CA Fyodr Syslov Street
+ James      | D.          | George          | United States of America | 4742 Bellevue Avenue, Louisville KY 40215
+ Judy       | D.          | Hammond         | United States of America | 55 Armory Street, Quincy MA 02169
+ Jonna      | J.          | Parker          | United States of America | 8779 Windsor St. Fuquay Varina, NC 27526
+ David      | B.          | Rosa            | United States of America | 4216 Winter Lake Drive, Louisville KY 40272
+ Ann        | J.          | Solis           | United States of America | 107 West Canton Circle, Springfield MA 01104
+ Justin     | A.          | Toth            | United States of America | 2069 Cambridge Place. Salisbury, MD 21875
+(10 rows)
+
+bank=# 
+bank=# -- 2.Имена, фамилии, отчества, официальные названия стран гражданства всех физических лиц, не являющихся гражданами Беларуси, с сортировкой в порядке возрастания по ISO коду и фамилии.
+bank=# SELECT individual.first_name,  individual.middle_name, individual.last_name, citizenship.official_name 
+bank-# FROM individual 
+bank-#     JOIN citizenship ON individual.citizenship_id = citizenship.id 
+bank-#     WHERE citizenship_id <> 'BY' 
+bank-#     ORDER BY citizenship.id, individual.last_name;
+ first_name | middle_name |    last_name    |      official_name       
+------------+-------------+-----------------+--------------------------
+ Katotoka   | Jojo        | Jeep            | Switzerland
+ Júlía      |             | Ingveldardóttir | New Zealand
+ Among-Us   | Czarnecka   | Tekla           | Poland
+ James      | D.          | George          | United States of America
+ Judy       | D.          | Hammond         | United States of America
+ Jonna      | J.          | Parker          | United States of America
+ David      | B.          | Rosa            | United States of America
+ Ann        | J.          | Solis           | United States of America
+ Justin     | A.          | Toth            | United States of America
+(9 rows)
+
+bank=# 
+bank=# -- 3.Имена, фамилии, отчества всех физических лиц, являющихся гражданами США, с сортировкой в порядке возрастания по фамилии.
+bank=# SELECT individual.first_name,  individual.middle_name, individual.last_name 
+bank-# FROM individual 
+bank-#     JOIN citizenship ON individual.citizenship_id = citizenship.id 
+bank-#     WHERE citizenship_id = 'US' 
+bank-#     ORDER BY individual.last_name;
+ first_name | middle_name | last_name 
+------------+-------------+-----------
+ James      | D.          | George
+ Judy       | D.          | Hammond
+ Jonna      | J.          | Parker
+ David      | B.          | Rosa
+ Ann        | J.          | Solis
+ Justin     | A.          | Toth
+(6 rows)
+
+bank=# 
+bank=# -- 4.УНП, названия и адреса регистрации всех юридических лиц отсортированные в порядке возрастания по названию юридического лица.
+bank=# SELECT * FROM entity ORDER BY entity.official_name; 
+    prn    |                                    official_name                                     |                  registration_address                  
+-----------+--------------------------------------------------------------------------------------+--------------------------------------------------------
+ 100361649 | Внешнеэкономическое акционерное общество "Беларусь"                                  | г.Минск,ул.Долгобродская,29
+ 390402520 | Государственное учреждение образования "Средняя школа № 1 г.Сенно имени З.И. Азгура" | Витебская обл.,г.Сенно,ул. Октябрьская, д.82а
+ 191296077 | Иностранное общество с ограниченной ответственностью "Майкрософт Софтвер Бел"        | г.Минск,пр-т Победителей, д.106, оф. 34
+ 193387390 | Общество с ограниченной ответственностью "Прог-дом"                                  | г.Минск,ул. Кальварийская, д.33, корп.11, пом. 3
+ 490635484 | Общество с ограниченной ответственностью "Устал"                                     | г.Минск,пр.Партизанский,19А,пом.2Н(ком.1)
+ 100390875 | Общество с ограниченной ответственностью "ЭМОНГ"                                     | Брестская область, г.Брест, бульвар Космонавтов, 34-1Н
+ 100950138 | Редакция юмористического журнала "Прикол"                                            | г.Минск, улица Приколистов, 419
+ 691887604 | Таварыства з абмежаванай адказнасцю "АС-Керамікс"                                    | Брестская область, г.Лида, улица Шушкевича, 69-34
+ 691700191 | Таварыства з абмежаванай адказнасцю "САС Індастрыял"                                 | г.Минск, улица Козлова, 21
+ 190649362 | Частное учреждение образования "Средняя школа "Альтасфера"                           | г.Минск,ул. Маяковского, д.129А, каб. 105
+(10 rows)
+
+bank=# 
+bank=# -- 5.УНП, названия и адреса регистрации всех юридических лиц с адресом регистрации в городе Минске, отсортированные в порядке возрастания по названию юридического лица.
+bank=# SELECT * 
+bank-# FROM entity 
+bank-#     WHERE entity.registration_address LIKE 'г.Минск%' 
+bank-#     ORDER BY entity.official_name;
+    prn    |                                 official_name                                 |               registration_address               
+-----------+-------------------------------------------------------------------------------+--------------------------------------------------
+ 100361649 | Внешнеэкономическое акционерное общество "Беларусь"                           | г.Минск,ул.Долгобродская,29
+ 191296077 | Иностранное общество с ограниченной ответственностью "Майкрософт Софтвер Бел" | г.Минск,пр-т Победителей, д.106, оф. 34
+ 193387390 | Общество с ограниченной ответственностью "Прог-дом"                           | г.Минск,ул. Кальварийская, д.33, корп.11, пом. 3
+ 490635484 | Общество с ограниченной ответственностью "Устал"                              | г.Минск,пр.Партизанский,19А,пом.2Н(ком.1)
+ 100950138 | Редакция юмористического журнала "Прикол"                                     | г.Минск, улица Приколистов, 419
+ 691700191 | Таварыства з абмежаванай адказнасцю "САС Індастрыял"                          | г.Минск, улица Козлова, 21
+ 190649362 | Частное учреждение образования "Средняя школа "Альтасфера"                    | г.Минск,ул. Маяковского, д.129А, каб. 105
+(7 rows)
+
+bank=# 
+bank=# -- 6.УНП, названия адреса регистрации всех юридических лиц и номера счетов, отсортированные в порядке возрастания по названию юридического лица.
+bank=# SELECT entity.prn, entity.official_name, entity.registration_address, account.iban 
+bank-# FROM entity 
+bank-#     JOIN account ON account.entity_PRN = entity.prn 
+bank-#     ORDER BY entity.official_name; 
+    prn    |                                    official_name                                     |                  registration_address                  |             iban             
+-----------+--------------------------------------------------------------------------------------+--------------------------------------------------------+------------------------------
+ 100361649 | Внешнеэкономическое акционерное общество "Беларусь"                                  | г.Минск,ул.Долгобродская,29                            | BY34AMNG1011204US10070190001
+ 390402520 | Государственное учреждение образования "Средняя школа № 1 г.Сенно имени З.И. Азгура" | Витебская обл.,г.Сенно,ул. Октябрьская, д.82а          | BY34AMNG1011204US10020190001
+ 191296077 | Иностранное общество с ограниченной ответственностью "Майкрософт Софтвер Бел"        | г.Минск,пр-т Победителей, д.106, оф. 34                | BY34AMNG1011204US10030190001
+ 193387390 | Общество с ограниченной ответственностью "Прог-дом"                                  | г.Минск,ул. Кальварийская, д.33, корп.11, пом. 3       | BY34AMNG1011204US10040190001
+ 490635484 | Общество с ограниченной ответственностью "Устал"                                     | г.Минск,пр.Партизанский,19А,пом.2Н(ком.1)              | BY34AMNG1011204US10060190001
+ 100390875 | Общество с ограниченной ответственностью "ЭМОНГ"                                     | Брестская область, г.Брест, бульвар Космонавтов, 34-1Н | BY34AMNG1011204US10090190001
+ 100950138 | Редакция юмористического журнала "Прикол"                                            | г.Минск, улица Приколистов, 419                        | BY34AMNG1011204US10100190001
+ 691887604 | Таварыства з абмежаванай адказнасцю "АС-Керамікс"                                    | Брестская область, г.Лида, улица Шушкевича, 69-34      | BY34AMNG1011204US10080190001
+ 691700191 | Таварыства з абмежаванай адказнасцю "САС Індастрыял"                                 | г.Минск, улица Козлова, 21                             | BY34AMNG1011204US10110190001
+ 190649362 | Частное учреждение образования "Средняя школа "Альтасфера"                           | г.Минск,ул. Маяковского, д.129А, каб. 105              | BY34AMNG1011204US10050190001
+(10 rows)
+
+bank=# 
+bank=# -- 7.Идентификатор, название типа, дата, счёт получателя, сумма и валюта транзакции по номеру счёта.
+bank=# SELECT transaction.id, transaction_type.transaction_type_name, transaction.transaction_date, transaction.recipients_account, transaction.amount, transaction.currency_code 
+bank-# FROM transaction 
+bank-#     JOIN transaction_type ON transaction_type.code = transaction.transaction_type_code 
+bank-#     WHERE transaction.account_iban = 'BY34AMNG1011104US20100190001';
+ id | transaction_type_name |  transaction_date   |      recipients_account      |   amount   | currency_code 
+----+-----------------------+---------------------+------------------------------+------------+---------------
+  9 | transfer              | 2022-12-01 13:00:00 | BY34AMAG1011104US20112390001 | $13,456.11 | BYN
+ 10 | cash_in               | 2022-12-01 14:00:12 | BY34AMAG1011104US20112390001 |     $42.33 | BYN
+(2 rows)
+
+bank=# 
+bank=# -- 8.Идентификатор, название типа, дата, счёт получателя, сумма и валюта транзакции для всех карт.
+bank=# SELECT card.card_number, transaction.id, transaction_type.transaction_type_name, transaction.transaction_date, transaction.recipients_account, transaction.amount, transaction.currency_code 
+bank-# FROM card 
+bank-#     JOIN transaction ON card.card_number = transaction.card_number 
+bank-#     JOIN transaction_type ON transaction_type.code = transaction.transaction_type_code
+bank-#     WHERE transaction.card_number IS NOT NULL 
+bank-#     ORDER BY card_number;
+   card_number    | id | transaction_type_name |  transaction_date   |      recipients_account      | amount  | currency_code 
+------------------+----+-----------------------+---------------------+------------------------------+---------+---------------
+ 4485371370304942 |  7 | refund                | 2022-12-05 05:01:00 | GB34TIME1011204US10060190001 |  $55.25 | GBP
+ 4485371370304942 |  6 | payment               | 2022-12-05 05:00:00 | GB34TIME1011204US10060190001 |  $55.25 | GBP
+ 4485931003026632 |  3 | cash_out              | 2022-12-02 02:00:23 | GB34TIME1011104US20044390001 | $432.65 | GBP
+ 4532311642576573 |  2 | cash_out              | 2022-12-01 23:59:32 | GB34TIME1011104US20112390001 | $134.32 | USD
+ 4532311642576573 |  1 | cash_in               | 2022-12-01 01:00:00 | GB34TIME1011104US20112390001 | $134.32 | USD
+ 4556073579124428 |  4 | payment               | 2022-12-03 03:00:00 | GB34TIME1011204DS13200190001 | $123.43 | USD
+ 4556941777057592 |  8 | cash_in               | 2022-12-06 06:00:43 | GB34TIME1011204US10020190001 |  $52.25 | BYN
+ 4716899615629021 |  5 | cash_out              | 2022-12-04 04:00:34 | GB34TIME1011204US23080190001 |  $34.34 | GBP
+(8 rows)
+
+bank=# 
+bank=# -- 9.Идентификатор, название типа, дата, счёт получателя, сумма и валюта транзакций определённого типа.
+bank=# SELECT transaction.id, transaction_type.transaction_type_name, transaction.transaction_date, transaction.recipients_account, transaction.amount, transaction.currency_code 
+bank-# FROM transaction 
+bank-#     JOIN transaction_type ON transaction_type.code = transaction.transaction_type_code 
+bank-#     WHERE transaction.transaction_type_code = 4; -- Refund
+ id | transaction_type_name |  transaction_date   |      recipients_account      | amount | currency_code 
+----+-----------------------+---------------------+------------------------------+--------+---------------
+  7 | refund                | 2022-12-05 05:01:00 | GB34TIME1011204US10060190001 | $55.25 | GBP
+(1 row)
+
+bank=# 
+bank=# -- 10.Номер карты, окончание срока действия, CVV-код, платёжная система и её класс обслуживания по номеру счёта.
+bank=# SELECT card.card_number, to_char(card.expiration_date, 'Month YYYY') AS "expiration_date", card.cvv, card.payment_system, card.service_class
+bank-# FROM account_card
+bank-#     JOIN card ON card.card_number = account_card.card_number
+bank-#     WHERE account_card.account_iban = 'BY34AMNG1011104US20030190001';
+   card_number    | expiration_date | cvv | payment_system | service_class 
+------------------+-----------------+-----+----------------+---------------
+ 4024007166727312 | February  2028  | 546 | MasterCard     | Standart
+ 5345342356643345 | June      2029  | 236 | VISA           | Gold
+(2 rows)
+
+bank=# 
+bank=# -- 11.Номер, окончание срока действия, CVV-код, платёжная система и её класс обслуживания для карт, информация о лимитах у карт у которых есть лимиты.
+bank=# SELECT card.card_number, to_char(card.expiration_date, 'Month YYYY') AS "expiration_date", card.cvv, card.payment_system, card.service_class, bank_limit.limit_start_date, bank_limit.limit_end_date, bank_limit.cash_amount, bank_limit.cash_count, bank_limit.non_cash_amount, bank_limit.non_cash_count, bank_limit.maximal_cash_amount, bank_limit.maximal_cash_count, bank_limit.maximal_non_cash_amount, bank_limit.maximal_non_cash_count
+bank-# FROM bank_limit
+bank-#     JOIN card ON bank_limit.card_number = card.card_number;
+ card_number | expiration_date | cvv | payment_system | service_class | limit_start_date | limit_end_date | cash_amount | cash_count | non_cash_amount | non_cash_count | maximal_cash_amount | maximal_cash_count | maximal_non_cash_amount | maximal_non_cash_count 
+-------------+-----------------+-----+----------------+---------------+------------------+----------------+-------------+------------+-----------------+----------------+---------------------+--------------------+-------------------------+------------------------
+(0 rows)
+
+bank=# 
+bank=# -- 12.Номер, окончание срока действия, CVV-код, платёжная система и её класс обслуживания для карт, информация о лимитах у конкретной карты.
+bank=# SELECT card.card_number, to_char(card.expiration_date, 'Month YYYY') AS "expiration_date", card.cvv, card.payment_system, card.service_class, bank_limit.limit_start_date, bank_limit.limit_end_date, bank_limit.cash_amount, bank_limit.cash_count, bank_limit.non_cash_amount, bank_limit.non_cash_count, bank_limit.maximal_cash_amount, bank_limit.maximal_cash_count, bank_limit.maximal_non_cash_amount, bank_limit.maximal_non_cash_count
+bank-# FROM bank_limit
+bank-#     JOIN card ON bank_limit.card_number = card.card_number
+bank-#     WHERE card.card_number = '4024007166727312';
+ card_number | expiration_date | cvv | payment_system | service_class | limit_start_date | limit_end_date | cash_amount | cash_count | non_cash_amount | non_cash_count | maximal_cash_amount | maximal_cash_count | maximal_non_cash_amount | maximal_non_cash_count 
+-------------+-----------------+-----+----------------+---------------+------------------+----------------+-------------+------------+-----------------+----------------+---------------------+--------------------+-------------------------+------------------------
+(0 rows)
+
+bank=# 
+bank=# -- 13.Информация о счёте и лимитах у счетов, которые имеют лимиты.
+bank=# SELECT card.card_number, to_char(card.expiration_date, 'Month YYYY') AS "expiration_date", card.cvv, card.payment_system, card.service_class, bank_limit.limit_start_date, bank_limit.limit_end_date, bank_limit.cash_amount, bank_limit.cash_count, bank_limit.non_cash_amount, bank_limit.non_cash_count, bank_limit.maximal_cash_amount, bank_limit.maximal_cash_count, bank_limit.maximal_non_cash_amount, bank_limit.maximal_non_cash_count
+bank-# FROM bank_limit
+bank-#     JOIN card ON bank_limit.card_number = card.card_number;
+ card_number | expiration_date | cvv | payment_system | service_class | limit_start_date | limit_end_date | cash_amount | cash_count | non_cash_amount | non_cash_count | maximal_cash_amount | maximal_cash_count | maximal_non_cash_amount | maximal_non_cash_count 
+-------------+-----------------+-----+----------------+---------------+------------------+----------------+-------------+------------+-----------------+----------------+---------------------+--------------------+-------------------------+------------------------
+(0 rows)
+
+bank=# 
+bank=# 
+bank=# 
+bank=# -- 1.Имена, фамилии, отчества, номера карт и счетов всех физических лиц, у которых они есть.
+bank=# WITH account_card_table AS 
+bank-#     (SELECT individual.last_name, individual.first_name, individual.middle_name, citizenship.official_name, card.card_number, account.iban
+bank(#     FROM account_card 
+bank(#         FULL OUTER JOIN account ON account.iban = account_card.account_iban 
+bank(#         FULL OUTER JOIN card ON card.card_number = account_card.card_number
+bank(#         JOIN individual ON account.individual_document_number = individual.document_number
+bank(#         JOIN citizenship ON citizenship.id = individual.citizenship_id 
+bank(#     )
+bank-# 
+bank-# SELECT * FROM account_card_table
+bank-# ORDER BY last_name;
+    last_name    | first_name | middle_name |      official_name       |   card_number    |             iban             
+-----------------+------------+-------------+--------------------------+------------------+------------------------------
+ George          | James      | D.          | United States of America | 4556073579124428 | BY34AMNG1011104US20060190001
+ Hammond         | Judy       | D.          | United States of America | 4024007166727312 | BY34AMNG1011104US20030190001
+ Hammond         | Judy       | D.          | United States of America | 5345342356643345 | BY34AMNG1011104US20030190001
+ Hurynovič       | Andrej     | Viktaravič  | Belarus                  |                  | BY34AMNG1011104US20020190001
+ Ingveldardóttir | Júlía      |             | New Zealand              | 4485477266271390 | BY34AMNG1011104US20100190001
+ Jeep            | Katotoka   | Jojo        | Switzerland              | 4532470294988286 | BY34AMNG1011104US20080190001
+ Parker          | Jonna      | J.          | United States of America | 4485931003026632 | BY34AMNG1011104US20070190001
+ Rosa            | David      | B.          | United States of America | 4485371370304942 | BY34AMNG1011104US20050190001
+ Solis           | Ann        | J.          | United States of America |                  | BY34AMNG1011104US20040190001
+ Tekla           | Among-Us   | Czarnecka   | Poland                   | 4532311642576573 | BY34AMNG1011104US20090190001
+ Toth            | Justin     | A.          | United States of America | 4716899615629021 | BY34AMNG1011104US20110190001
+(11 rows)
+
+bank=# 
+bank=# --2.Сумма всех транзакций в BYN.
+bank=# SELECT SUM(transaction.amount)
+bank-# FROM transaction
+bank-#     WHERE transaction.currency_code = 'BYN';
+    sum     
+------------
+ $67,550.57
+(1 row)
+
+bank=# 
+bank=# -- 3.   Имена, фамилии, отчества, номера карт и счетов всех физического лица, у которого самый большой баланс.
+bank=# WITH account_card_table AS 
+bank-#     (SELECT individual.last_name, individual.first_name, individual.middle_name, citizenship.official_name, card.card_number, account.iban, account.balance
+bank(#     FROM account_card 
+bank(#         FULL OUTER JOIN account ON account.iban = account_card.account_iban 
+bank(#         FULL OUTER JOIN card ON card.card_number = account_card.card_number
+bank(#         JOIN individual ON account.individual_document_number = individual.document_number
+bank(#         JOIN citizenship ON citizenship.id = individual.citizenship_id 
+bank(#     )
+bank-# 
+bank-# SELECT * FROM account_card_table
+bank-# WHERE balance = (SELECT MAX(account.balance) FROM account)
+bank-# ORDER BY last_name;
+ last_name | first_name | middle_name |      official_name       |   card_number    |             iban             |    balance    
+-----------+------------+-------------+--------------------------+------------------+------------------------------+---------------
+ Rosa      | David      | B.          | United States of America | 4485371370304942 | BY34AMNG1011104US20050190001 | $4,444,444.40
+(1 row)
+
+bank=# 
+bank=# -- 4.Имена, фамилии, отчества, номера карт и счетов всех физического лица, у которого самый маленький баланс.
+bank=# WITH account_card_table AS 
+bank-#     (SELECT individual.last_name, individual.first_name, individual.middle_name, citizenship.official_name, card.card_number, account.iban, account.balance
+bank(#     FROM account_card 
+bank(#         FULL OUTER JOIN account ON account.iban = account_card.account_iban 
+bank(#         FULL OUTER JOIN card ON card.card_number = account_card.card_number
+bank(#         JOIN individual ON account.individual_document_number = individual.document_number
+bank(#         JOIN citizenship ON citizenship.id = individual.citizenship_id 
+bank(#     )
+bank-# 
+bank-# SELECT * FROM account_card_table
+bank-# WHERE balance = (SELECT MIN(account.balance) FROM account)
+bank-# ORDER BY last_name;
+ last_name | first_name | middle_name | official_name |   card_number    |             iban             | balance 
+-----------+------------+-------------+---------------+------------------+------------------------------+---------
+ Jeep      | Katotoka   | Jojo        | Switzerland   | 4532470294988286 | BY34AMNG1011104US20080190001 |   $0.00
+(1 row)
+
+bank=# 
+bank=# -- 5.Имена, фамилии, отчества, номера карт и счетов всех физического лица, у которых существуют лимиты на карты.
+bank=# WITH account_card_table AS 
+bank-#     (SELECT individual.last_name, individual.first_name, individual.middle_name, citizenship.official_name, card.card_number, account.iban, account.balance
+bank(#     FROM account_card 
+bank(#         FULL OUTER JOIN account ON account.iban = account_card.account_iban 
+bank(#         FULL OUTER JOIN card ON card.card_number = account_card.card_number
+bank(#         JOIN individual ON account.individual_document_number = individual.document_number
+bank(#         JOIN citizenship ON citizenship.id = individual.citizenship_id 
+bank(#     )
+bank-# 
+bank-# SELECT * 
+bank-# FROM account_card_table
+bank-#     WHERE iban in (SELECT account_iban FROM transaction) OR card_number in (SELECT card_number FROM card)
+bank-#     ORDER BY last_name;
+    last_name    | first_name | middle_name |      official_name       |   card_number    |             iban             |    balance    
+-----------------+------------+-------------+--------------------------+------------------+------------------------------+---------------
+ George          | James      | D.          | United States of America | 4556073579124428 | BY34AMNG1011104US20060190001 |         $1.34
+ Hammond         | Judy       | D.          | United States of America | 5345342356643345 | BY34AMNG1011104US20030190001 |        $12.30
+ Hammond         | Judy       | D.          | United States of America | 4024007166727312 | BY34AMNG1011104US20030190001 |        $12.30
+ Ingveldardóttir | Júlía      |             | New Zealand              | 4485477266271390 | BY34AMNG1011104US20100190001 |       $100.00
+ Jeep            | Katotoka   | Jojo        | Switzerland              | 4532470294988286 | BY34AMNG1011104US20080190001 |         $0.00
+ Parker          | Jonna      | J.          | United States of America | 4485931003026632 | BY34AMNG1011104US20070190001 |     $1,645.30
+ Rosa            | David      | B.          | United States of America | 4485371370304942 | BY34AMNG1011104US20050190001 | $4,444,444.40
+ Tekla           | Among-Us   | Czarnecka   | Poland                   | 4532311642576573 | BY34AMNG1011104US20090190001 |   $565,656.30
+ Toth            | Justin     | A.          | United States of America | 4716899615629021 | BY34AMNG1011104US20110190001 |        $65.34
+(9 rows)
+
+bank=# 
+bank=# -- 6.Пересечение людей и стран, у которых совпадает первая буква в имени и названии соответственно. 
+bank=# SELECT citizenship.official_name AS "names"
+bank-# FROM citizenship 
+bank-# WHERE citizenship.official_name LIKE 'J%'
+bank-# UNION SELECT individual.first_name 
+bank-# FROM individual 
+bank-# WHERE individual.first_name LIKE 'J%';
+  names  
+---------
+ Jordan
+ Japan
+ Judy
+ Júlía 
+ Jersey
+ Jonna
+ Jamaica
+ James
+ Justin
+(9 rows)

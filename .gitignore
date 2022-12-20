@@ -89,9 +89,7 @@ xvlog.*
 
 ## checkpoint files
 *.dcp
-term7/АОКС, КП/Не моё
 term7/МПСиС
-term7/БД
 
 # Xcode
 #
