@@ -1,4 +1,15 @@
-# Вычислительные машины системы и сети (ВМСиС)
+# Вычислительные машины системы и сети (ВМСиС),
+# Компьютерная инженерия (кафедра ЭВМ)
+
+### [Дипломное проектирование(2023)](https://github.com/andrejHurynovic/bsuirLabs/tree/main/diploma)
+
+### [Восьмой семестр (2023)](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8)
+- [КиДСВТ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8/КиДСВТ) ()
+- [МППиУ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8/МППиУ) ()
+- [ПИиПвИО](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8/ПИиПвИО) ()
+- [ПрактПреддипл](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8/ПрактПреддипл) ()
+- [СПОЛКС](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8/СПОЛКС) ()
+- [СХД](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8/СХД) ()
 
 ### [Седьмой семестр (2022)](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7)
 - [АОКС](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/АОКС) (Глецевич И.И.)
