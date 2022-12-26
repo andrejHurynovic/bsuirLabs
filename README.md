@@ -1,5 +1,4 @@
-# Вычислительные машины системы и сети (ВМСиС),
-# Компьютерная инженерия (кафедра ЭВМ)
+# Вычислительные машины системы и сети (ВМСиС)
 
 ### [Дипломное проектирование(2023)](https://github.com/andrejHurynovic/bsuirLabs/tree/main/diploma)
 
@@ -33,7 +32,6 @@
 - [ЦОСиИ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/ЦОСиИ) (Перцев Д.Ю.)
 - [Экономика](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term6/Экономика) (Титова Е.Э)
 ### [Пятый семестр (2021)](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term5)
-- [АПК](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term5/АПК) (Одинец Д.Н.)
 - [ИиПУ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term5/ИиПУ) (Дудкин А.А. / Байдун Д.Р.)
 - [ОЗИ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term5/ОЗИ) (Смирнова Н.А. / Столер Д.В.)
 - [СхемТ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term5/СхемТ) (Байрак С.А. / Коников А.Д.)
@@ -41,9 +39,11 @@
 - [ТОКС](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term5/ТОКС) (Глецевич И.И. / Марцинкевич В.А.)
 - [CиФОЭВМ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term5/CиФОЭВМ) (Воронов А.А. / Коников А.Д.)
 ### [Четвёртый семестр (2021)](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term4)
+- [АПК](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term4/АПК) (Одинец Д.Н.)
 - [КПиЯП](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term4/КПиЯП) (Лукьянова И.В. / Оверченко А.С.)
 - [СПОВМ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term4/СПОВМ) (Поденок Л.П. / Климец А.А.)
 - [СПОВМ, КП](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term4/СПОВМ%2C%20КП) (Климец А.А.)
+- [ТВиМС](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term4/ТВиМС) (Волковец А.И. /Шатилова О.О.)
 ### [Третий семестр (2020)](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term3)
 - [КПиЯП](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term3/КПиЯП) (Калабухов Е.В. / Ковальчук А.М.)
 - [КПиЯП, КП](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term3/КПиЯП%2C%20КП) (Ковальчук А.М.)
