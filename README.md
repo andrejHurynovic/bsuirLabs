@@ -3,12 +3,11 @@
 ### [Дипломное проектирование(2023)](https://github.com/andrejHurynovic/bsuirLabs/tree/main/diploma)
 
 ### [Восьмой семестр (2023)](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8)
-- [КиДСВТ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8/КиДСВТ) ()
-- [МППиУ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8/МППиУ) ()
-- [ПИиПвИО](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8/ПИиПвИО) ()
-- [ПрактПреддипл](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8/ПрактПреддипл) ()
-- [СПОЛКС](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8/СПОЛКС) ()
-- [СХД](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8/СХД) ()
+- [КиДСВТ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8/КиДСВТ) (Татур М.М.)
+- [МППиУ](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8/МППиУ) (Горюшкин А.А.)
+- [ПрактПреддипл](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8/ПрактПреддипл) 
+- [СПОЛКС](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8/СПОЛКС) (Смирнов Ю.В. / Богдан Е.В.)
+- [СХД](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term8/СХД) (Фролов И.И. / Куприянова Д.В.)
 
 ### [Седьмой семестр (2022)](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7)
 - [АОКС](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/АОКС) (Глецевич И.И.)
