@@ -1,95 +1,47 @@
-term6/АВП/Лекции
-term6/АВП/Книги
-СА, парктикум.pages
-СА, парктикум.pdf
-term6/ЦОСиИ/Книги
-term6/ЦОСиИ/Лекции
+term4/АПК/Литература
+term4/КПиЯП/Books
 term5/CиФОЭВМ/Книги
 term5/АПК/Литература
-term4/КПиЯП/Books
+term6/АВП/Лекции
+term6/АВП/Книги
+term6/ЦОСиИ/Книги
+term6/ЦОСиИ/Лекции
 term6/ЦОСиИ/ЦОСиИ, ЛР № 1/lab1
 term6/Социология/ЭРУД Социология
 term6/Социология/Темы
-Тестирование программного обеспечения. Базовый курс.pdf
-Договор о прохождении производственной практики.doc
-term7/МПСиС/Datasheets
-
-#Vivado
-
-#########################################################################################
-##  Project    : Collect of various scripts for working with EDA-tools (ASIC/FPGA/etc) ##
-##  Link       : https://github.com/iDoka/eda-scripts                                  ##
-##  Description: .gitignore                                                            ##
-##  Usage      : just rename or add contain to .gitignore                              ##
-##  License    : MIT                                                                   ##
-#########################################################################################
-
-## log files
-*.log
-*.jou
-*.rpt
-*.vdi
-
-## bitstream
-*.bit
-*.bin
-*.mcs
-*.svf
-*.image
-
-## netlist
-*.edf
-*.edif
-*.vn
-*.vm
-
-## SDF
-*.sdf
-
-## sim dump
-*.vcd
-*.saif
-*.tcf
-*.wdb
-
-## others
-unisims
-
-## C-files
-*.elf
-*.a
-*.sa
-*.so
-*.lib
-
-## dirs
-vivado.cache/
-vivado.hw/
-vivado.ip_user_files/
-vivado.runs/
-vivado.sim/
-
-###### for Xilinx Vivado|ISE
-.Xil/
-.cache/
-fsm_encoding.os
-tab_*/
-webtalk.*
-vivado_pid*.str
-hs_err_pid*
-xelab.*
-xsim.*
-xvlog.*
-*.cache
-*.sim
-*.runs
-*.hw
-*.backup.*
-*.debug
-
-## checkpoint files
-*.dcp
 term7/МПСиС
+term7/АОКС/Лекции
+term7/БД/lections
+term7/АПВМиС/Лекции
+term7/СПОЛКС/lab1
+term7/СПОЛКС/Lab2
+term7/СПОЛКС/lab3
+term7/СПОЛКС/lab4
+term7/Мод/Лекции
+term8/МППиУ/МППиУ, ЭРУД
+
+
+Тестирование программного обеспечения. Базовый курс.pdf
+
+
+Wireshark-win32-1.10.7.exe
+Firefox Setup 52.9.0esr.exe
+term8/СХД/FC_SAN_Trace.pcap
+term8/СХД/flashplayer32_0r0_363_win.msi
+term8/СХД/iSCSI_SAN_Trace.pcap
+term8/СХД/vnxe-demo.exe
+КиДСВТ, пособие.pdf
+Modius.exe
+
+МППиУ, практикум.pdf
+
+СА, парктикум.pages
+СА, парктикум.pdf
+
+
+
+
+
 
 # Xcode
 #
@@ -181,28 +133,4 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
-Бланк диплома.doc
-term7/АОКС/Лекции
-АОКС, вопросы к зачёту.pdf
-term7/БД/lections
-term7/АПВМиС/Лекции
-term4/АПК/Литература
-term7/СПОЛКС/lab1
-term7/СПОЛКС/Lab2
-term7/СПОЛКС/lab3
-term7/СПОЛКС/lab4
-term7/Мод/Лекции
-term7/СПОЛКС/СПОЛКC, гайд по ЛР (ЕвГЕНИЙ Яговдик).docx
-term7/СПОЛКС/СПОЛКС, ответы к экзамену (2022).docx
-term7/ЦОСиИ/ЦОСиИ, ответы к экзамену (2022).docx
-term8/МППиУ/МППиУ, ЭРУД
-КиДСВТ, пособие.pdf
-Modius.exe
-МППиУ, практикум.pdf
-Wireshark-win32-1.10.7.exe
-Firefox Setup 52.9.0esr.exe
-term8/СХД/FC_SAN_Trace.pcap
-term8/СХД/flashplayer32_0r0_363_win.msi
-term8/СХД/iSCSI_SAN_Trace.pcap
-term8/СХД/vnxe-demo.exe
-vnxe-demo.exe
+
