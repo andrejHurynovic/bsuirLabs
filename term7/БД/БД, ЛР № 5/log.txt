@@ -232,7 +232,7 @@ FROM transaction
 (1 row)
 
 
--- 3.   Имена, фамилии, отчества, номера карт и счетов всех физического лица, у которого самый большой баланс.
+-- 3.Имена, фамилии, отчества, номера карт и счетов всех физического лица, у которого самый большой баланс.
 WITH account_card_table AS 
     (SELECT individual.last_name, individual.first_name, individual.middle_name, citizenship.official_name, card.card_number, account.iban, account.balance
     FROM account_card 
