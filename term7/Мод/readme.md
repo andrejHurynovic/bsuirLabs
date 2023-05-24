@@ -1,18 +1,18 @@
 # Моделирование (Мод)
 
-## [Лабараторная работа № 1](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/Мод/Мод%2C%20ЛР%20№%201) (E = 60)
+## [Лабораторная работа № 1](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/Мод/Мод%2C%20ЛР%20№%201) (E = 60)
 Формирование последовательности случайных чисел с заданным законом распределения.
-## [Лабараторная работа № 2](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/Мод/Мод%2C%20ЛР%20№%202) (Варинат № 5)
+## [Лабораторная работа № 2](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/Мод/Мод%2C%20ЛР%20№%202) (Варинат № 5)
 Построение и исследование аналитической модели дискретно–стохастической СМО.
-## [Лабараторная работа № 3](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/Мод/Мод%2C%20ЛР%20№%203) (Варинат № 5)
+## [Лабораторная работа № 3](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/Мод/Мод%2C%20ЛР%20№%203) (Варинат № 5)
 Построение и исследование имитационной модели дискретно-стохастической СМО.
-## [Лабараторная работа № 4](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/Мод/Мод%2C%20ЛР%20№%204) (Варинат № 5)
+## [Лабораторная работа № 4](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/Мод/Мод%2C%20ЛР%20№%204) (Варинат № 5)
 Построение и исследование аналитической модели непрерывно-стохастической СМО.
-## [Лабараторная работа № 5](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/Мод/Мод%2C%20ЛР%20№%205) (Варинат № 5)
+## [Лабораторная работа № 5](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/Мод/Мод%2C%20ЛР%20№%205) (Варинат № 5)
 Построение и исследование имитационной модели непрерывно-стохастической СМО.
-## [Лабараторная работа № 6](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/Мод/Мод%2C%20ЛР%20№%206) (Варинат № 5)
+## [Лабораторная работа № 6](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/Мод/Мод%2C%20ЛР%20№%206) (Варинат № 5)
 Моделирование в среде GPSS WORLD PC
-## [Лабараторная работа № 7](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/Мод/Мод%2C%20ЛР%20№%207) (Варинат № 5)
+## [Лабораторная работа № 7](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/Мод/Мод%2C%20ЛР%20№%207) (Варинат № 5)
 Анализ и оптимизация решений на основе моделей массового обслуживания.
-## [Лабараторная работа № 8](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/Мод/Мод%2C%20ЛР%20№%208) (Варинат № 6, 6, 1)
+## [Лабораторная работа № 8](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term7/Мод/Мод%2C%20ЛР%20№%208) (Варинат № 6, 6, 1)
 Метод Монте-Карло, решение задач моделирования на основе алгоритмов имитации случайных событий и величин

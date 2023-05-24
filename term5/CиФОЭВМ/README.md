@@ -1,7 +1,7 @@
 # СиФОЭВМ
-### [Лабараторная работа № 1](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term5/CиФОЭВМ/ЛР/labwork1)
+### [Лабораторная работа № 1](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term5/CиФОЭВМ/ЛР/labwork1)
 Компаратор(больше, меньше, равно),	асинхронный,	2 числа по 4 разряда
-### [Лабараторная работа № 2](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term5/CиФОЭВМ/ЛР/labwork2)
+### [Лабораторная работа № 2](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term5/CиФОЭВМ/ЛР/labwork2)
 - форма сигнала – б, 
 - m – 3, 
 - n – 5, 
@@ -14,7 +14,7 @@
 Для варианта А задавать m > n.
 Блок №2 может работать не верно при m и n отличных от варианта, если не сделаны другие дополнительные задания.
 3) Добавить в входам блока №3 2-разрядное значение mode[1..0], определяющее выходную форму сигнала DCa согласно варианта.
-### [Лабараторная работа № 3](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term5/CиФОЭВМ/ЛР/labwork3)
+### [Лабораторная работа № 3](https://github.com/andrejHurynovic/bsuirLabs/tree/main/term5/CиФОЭВМ/ЛР/labwork3)
 - размер ША (бит)	– 5
 - ROM вывод	– синхронный
 - RAM вывод	– синхронный
