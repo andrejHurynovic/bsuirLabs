@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleSugar\ConsoleSugar.csproj" />
+    <ProjectReference Include="..\NetworkPackets\NetworkPackets.csproj" />
+    <ProjectReference Include="..\Shared\Shared.csproj" />
+    <ProjectReference Include="..\SyncShared\SyncShared.csproj" />
+  </ItemGroup>
+
+</Project>
