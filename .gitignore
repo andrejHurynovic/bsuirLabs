@@ -30,8 +30,7 @@ term8/СХД/FC_SAN_Trace.pcap
 term8/СХД/flashplayer32_0r0_363_win.msi
 term8/СХД/iSCSI_SAN_Trace.pcap
 term8/СХД/vnxe-demo.exe
-КиДСВТ, пособие.pdf
-Modius.exe
+
 
 МППиУ, практикум.pdf
 
@@ -39,7 +38,16 @@ Modius.exe
 СА, парктикум.pdf
 
 
+
+#term8/КиДСВТ
+
+КиДСВТ, методическое пособие (2005).pdf
+Modius.exe
+
+#diploma
+
 diploma/Примеры
+Зачётная книжка.pdf
 ДП, приказ об утверждении тем дипломных проектов.pdf
 
 # Xcode
