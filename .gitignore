@@ -12,7 +12,7 @@ term6/Социология/Темы
 term7/МПСиС
 
 term7/БД/lections
-term7/АПВМиС/Лекции
+
 term7/СПОЛКС/lab1
 term7/СПОЛКС/Lab2
 term7/СПОЛКС/lab3
@@ -24,22 +24,14 @@ term7/Мод/Лекции
 Тестирование программного обеспечения. Базовый курс.pdf
 
 
-Wireshark-win32-1.10.7.exe
-Firefox Setup 52.9.0esr.exe
-term8/СХД/FC_SAN_Trace.pcap
-term8/СХД/flashplayer32_0r0_363_win.msi
-term8/СХД/iSCSI_SAN_Trace.pcap
-term8/СХД/vnxe-demo.exe
-
-
-МППиУ, практикум.pdf
-
 СА, парктикум.pages
 СА, парктикум.pdf
 
 #term7/АОКС
 term7/АОКС/lections
 
+#term7/АПВМиС
+term7/АПВМиС/lections
 
 #term8/КиДСВТ
 КиДСВТ, методическое пособие (2005).pdf
@@ -48,6 +40,14 @@ Modius.exe
 #term8/МППиУ
 МППиУ, лабораторный практикум (2013).pdf
 term8/МППиУ/МППиУ, ЭРУД
+
+#term8/СХД/
+Wireshark-win32-1.10.7.exe
+Firefox Setup 52.9.0esr.exe
+term8/СХД/FC_SAN_Trace.pcap
+term8/СХД/flashplayer32_0r0_363_win.msi
+term8/СХД/iSCSI_SAN_Trace.pcap
+term8/СХД/vnxe-demo.exe
 
 #diploma
 diploma/Примеры
